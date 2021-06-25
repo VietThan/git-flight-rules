@@ -3,11 +3,10 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-06-24 10:39-0400\n"
+"POT-Creation-Date: 2021-06-24 20:08-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,13 +17,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:2
-#, fuzzy
 msgid "# Flight rules for Git"
 msgstr "# Flight rules cho Git"
 
 #. type: Plain text
 #: README.md:5
-#, fuzzy
 msgid ""
 "🌍 *[English](README.md) ∙ [Español](README_es.md)  ∙ [Русский](README_ru.md) "
 "∙ [简体中文](README_zh-CN.md)∙ [한국어](README_kr.md)  ∙ [Tiếng Việt](README_vi.md) "
@@ -36,13 +33,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:7
-#, fuzzy
 msgid "#### What are \"flight rules\"?"
 msgstr "#### \"Flight rules\" là gì?"
 
 #. type: Plain text
 #: README.md:9
-#, fuzzy
 msgid ""
 "A guide for astronauts (now, programmers using Git) about what to do when "
 "things go wrong."
@@ -52,7 +47,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:11
-#, fuzzy
 msgid ""
 "> *Flight Rules* are the hard-earned body of knowledge recorded in manuals "
 "that list, step-by-step, what to do if X occurs, and why. Essentially, they "
@@ -66,7 +60,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:13
-#, fuzzy
 msgid ""
 "> NASA has been capturing our missteps, disasters and solutions since the "
 "early 1960s, when Mercury-era ground teams first started gathering \"lessons "
@@ -82,19 +75,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:15
-#, fuzzy
 msgid "&mdash; Chris Hadfield, *An Astronaut's Guide to Life*."
 msgstr "&mdash; Chris Hadfield, *Sổ Tay Phi Hành Gia*."
 
 #. type: Plain text
 #: README.md:17
-#, fuzzy
 msgid "#### Conventions for this document"
 msgstr "#### Quy chuẩn cho tài liệu này"
 
 #. type: Plain text
 #: README.md:19
-#, fuzzy
 msgid ""
 "For clarity's sake all examples in this document use a customized bash "
 "prompt in order to indicate the current branch and whether or not there are "
@@ -109,7 +99,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:21
-#, fuzzy
 msgid ""
 "All commands should work for at least git version 2.13.0. See the [git "
 "website](https://www.git-scm.com/) to update your local git version."
@@ -120,7 +109,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:26
-#, fuzzy
 msgid ""
 "[![Join the chat at "
 "https://gitter.im/k88hudson/git-flight-rules](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/k88hudson/git-flight-rules?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)  "
@@ -137,8 +125,7 @@ msgstr ""
 "[DocToc](https://github.com/thlorenz/doctoc)*"
 
 #. type: Plain text
-#: README.md:146
-#, fuzzy, no-wrap
+#: README.md:146, no-wrap
 msgid ""
 "  - [Repositories](#repositories)\n"
 "    - [I want to start a local "
@@ -569,7 +556,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:148
-#, fuzzy
 msgid ""
 "<!-- END doctoc generated TOC please keep comment here to allow auto update "
 "-->"
@@ -579,37 +565,31 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:150
-#, fuzzy
 msgid "## Repositories"
 msgstr "## Repositories (Kho)"
 
 #. type: Plain text
 #: README.md:152
-#, fuzzy
 msgid "### I want to start a local repository"
 msgstr "### Tôi muốn tạo một repository trên local"
 
 #. type: Plain text
 #: README.md:154
-#, fuzzy
 msgid "To initialize an existing directory as a Git repository:"
 msgstr "Để tạo một Git repository tại thư mục đã tồn tại:"
 
 #. type: Plain text
 #: README.md:158
-#, fuzzy
 msgid "```sh (my-folder) $ git init ```"
 msgstr "```sh (thư-mục-của-tôi) $ git init ```"
 
 #. type: Plain text
 #: README.md:160
-#, fuzzy
 msgid "### I want to clone a remote repository"
 msgstr "### Tôi muốn clone một remote repository"
 
 #. type: Plain text
 #: README.md:162
-#, fuzzy
 msgid ""
 "To clone (copy) a remote repository, copy the URL for the repository, and "
 "run:"
@@ -619,13 +599,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:166
-#, fuzzy
 msgid "```sh $ git clone [url] ```"
 msgstr "```sh $ git clone [url] ```"
 
 #. type: Plain text
 #: README.md:168
-#, fuzzy
 msgid ""
 "This will save it to a folder named the same as the remote "
 "repository's. Make sure you have a connection to the remote server you are "
@@ -639,7 +617,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:170
-#, fuzzy
 msgid ""
 "To clone it into a folder with a different name than the default repository "
 "name:"
@@ -647,25 +624,21 @@ msgstr "Để clone vào một thư mục với tên khác với tên mặc đ�
 
 #. type: Plain text
 #: README.md:174
-#, fuzzy
 msgid "```sh $ git clone [url] name-of-new-folder ```"
 msgstr "```sh $ git clone [url] name-of-new-folder ```"
 
 #. type: Plain text
 #: README.md:176
-#, fuzzy
 msgid "### I set the wrong remote repository"
 msgstr "### Tôi để sai remote repository"
 
 #. type: Plain text
 #: README.md:178
-#, fuzzy
 msgid "There are a few possible problems here:"
 msgstr "Có thể có vài vấn đề khác nhau:"
 
 #. type: Plain text
 #: README.md:180
-#, fuzzy
 msgid ""
 "If you cloned the wrong repository, simply delete the directory created "
 "after running `git clone` and clone the correct repository."
@@ -675,7 +648,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:182
-#, fuzzy
 msgid ""
 "If you set the wrong repository as the origin of an existing local "
 "repository, change the URL of your origin by running:"
@@ -685,13 +657,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:186
-#, fuzzy
 msgid "```sh $ git remote set-url origin [url of the actual repo] ```"
 msgstr "```sh $ git remote set-url origin [url của repo đúng] ```"
 
 #. type: Plain text
 #: README.md:188
-#, fuzzy
 msgid ""
 "For more, see [this StackOverflow "
 "topic](https://stackoverflow.com/questions/2432764/how-to-change-the-uri-url-for-a-remote-git-repository#2432799)."
@@ -701,13 +671,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:191
-#, fuzzy
 msgid "### I want to add code to someone else's repository"
 msgstr "### Tôi muốn thêm sửa code cho repository của người khác"
 
 #. type: Plain text
 #: README.md:193
-#, fuzzy
 msgid ""
 "Git doesn't allow you to add code to someone else's repository without "
 "access rights. Neither does GitHub, which is not the same as Git, but rather "
@@ -721,7 +689,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:195
-#, fuzzy
 msgid ""
 "First, a bit about forking. A fork is a copy of a repository. It is not a "
 "git operation, but is a common action on GitHub, Bitbucket, GitLab — or "
@@ -735,13 +702,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:197
-#, fuzzy
 msgid "#### Suggesting code via pull requests"
 msgstr "#### Thêm sửa code với pull requests"
 
 #. type: Plain text
 #: README.md:199
-#, fuzzy
 msgid ""
 "After you've forked a repository, you normally need to clone the repository "
 "to your machine. You can do some small edits on GitHub, for instance, "
@@ -755,7 +720,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:203
-#, fuzzy
 msgid ""
 "```sh # if you are using ssh $ git clone "
 "git@github.com:k88hudson/git-flight-rules.git"
@@ -765,7 +729,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:207
-#, fuzzy
 msgid ""
 "# if you are using https $ git clone "
 "https://github.com/k88hudson/git-flight-rules.git ```"
@@ -775,7 +738,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:209
-#, fuzzy
 msgid ""
 "If you `cd` into the resulting directory, and type `git remote`, you'll see "
 "a list of the remotes. Normally there will be one remote - `origin` - which "
@@ -789,7 +751,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:211
-#, fuzzy
 msgid ""
 "First, to follow a Git convention, we normally use the remote name `origin` "
 "for your own repository and `upstream` for whatever you've forked. So, "
@@ -801,13 +762,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:215
-#, fuzzy
 msgid "```sh $ git remote rename origin upstream ```"
 msgstr "```sh $ git remote rename origin upstream ```"
 
 #. type: Plain text
 #: README.md:217
-#, fuzzy
 msgid ""
 "You can also do this using `git remote set-url`, but it takes longer and is "
 "more steps."
@@ -817,13 +776,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:219
-#, fuzzy
 msgid "Then, set up a new remote that points to your project."
 msgstr "Sau đó, tạo remote mới để trỏ về repository của bạn."
 
 #. type: Plain text
 #: README.md:223
-#, fuzzy
 msgid ""
 "```sh $ git remote add origin git@github.com:YourName/git-flight-rules.git "
 "```"
@@ -833,13 +790,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:225
-#, fuzzy
 msgid "Note that now you have two remotes."
 msgstr "Lưu ý là bây giờ bạn có hai remote."
 
 #. type: Plain text
 #: README.md:228
-#, fuzzy
 msgid ""
 "- `origin` references your own repository.  - `upstream` references the "
 "original one."
@@ -849,13 +804,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:230
-#, fuzzy
 msgid "From origin, you can read and write. From upstream, you can only read."
 msgstr "Với `origin`, bạn có thể đọc và viết. Với `upstream`, bạn chỉ có thể đọc."
 
 #. type: Plain text
 #: README.md:232
-#, fuzzy
 msgid ""
 "When you've finished making whatever changes you like, push your changes "
 "(normally in a branch) to the remote named `origin`. If you're on a branch, "
@@ -869,7 +822,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:236
-#, fuzzy
 msgid ""
 "```sh $ (feature/my-feature) git push --set-upstream origin "
 "feature/my-feature ```"
@@ -879,7 +831,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:238
-#, fuzzy
 msgid ""
 "There is no way to suggest a pull request using the CLI using Git (although "
 "there are tools, like [hub](http://github.com/github/hub), which will do "
@@ -895,19 +846,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:240
-#, fuzzy
 msgid "After all of this, do not forget to respond to any code review feedback."
 msgstr "Sau cùng, nhớ đùng quên trả lời những comment phê duyệt code."
 
 #. type: Plain text
 #: README.md:242
-#, fuzzy
 msgid "#### Suggesting code via patches"
 msgstr "#### Thêm sửa code với các patch (vá)"
 
 #. type: Plain text
 #: README.md:244
-#, fuzzy
 msgid ""
 "Another approach to suggesting code changes that doesn't rely on third party "
 "sites such as Github is to use `git format-patch`."
@@ -917,7 +865,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:246
-#, fuzzy
 msgid ""
 "`format-patch` creates a .patch file for one or more commits. This file is "
 "essentially a list of changes that looks similar to the commit diffs you can "
@@ -929,7 +876,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:248
-#, fuzzy
 msgid ""
 "A patch can be viewed and even edited by the recipient and applied using "
 "`git am`."
@@ -939,7 +885,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:250
-#, fuzzy
 msgid ""
 "For example, to create a patch based on the previous commit you would run "
 "`git format-patch HEAD^` which would create a .patch file called something "
@@ -951,7 +896,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:252
-#, fuzzy
 msgid ""
 "To apply this patch file to your repository you would run `gim am "
 "./0001-My-Commit-Message.patch`."
@@ -961,7 +905,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:254
-#, fuzzy
 msgid ""
 "Patches can also be sent via email using the `git send-email` command. For "
 "information on usage and configuration see: https://git-send-email.io"
@@ -971,7 +914,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:256
-#, fuzzy
 msgid ""
 "#### I need to update my fork with latest updates from the original "
 "repository"
@@ -981,7 +923,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:258
-#, fuzzy
 msgid ""
 "After a while, the `upstream` repository may have been updated, and these "
 "updates need to be pulled into your `origin` repo. Remember that like you, "
@@ -996,7 +937,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:260
-#, fuzzy
 msgid ""
 "You probably have set up a remote that points to the original project. If "
 "not, do this now. Generally we use `upstream` as a remote name:"
@@ -1006,7 +946,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:265
-#, fuzzy
 msgid ""
 "```sh $ (main) git remote add upstream <link-to-original-repository> # $ "
 "(main) git remote add upstream git@github.com:k88hudson/git-flight-rules.git "
@@ -1018,37 +957,31 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:267
-#, fuzzy
 msgid "Now you can fetch from upstream and get the latest updates."
 msgstr "Bây giờ bạn fetch (lấy) từ `upstream` và nhận những update mới nhất."
 
 #. type: Plain text
 #: README.md:271
-#, fuzzy
 msgid "```sh $ (main) git fetch upstream $ (main) git merge upstream/main"
 msgstr "```sh $ (main) git fetch upstream $ (main) git merge upstream/main"
 
 #. type: Plain text
 #: README.md:275
-#, fuzzy
 msgid "# or using a single command $ (main) git pull upstream main ```"
 msgstr "# hoặc với một lệnh duy nhất $ (main) git pull upstream main ```"
 
 #. type: Plain text
 #: README.md:277
-#, fuzzy
 msgid "## Editing Commits"
 msgstr "## Chỉnh sửa Commit"
 
 #. type: Plain text
 #: README.md:280
-#, fuzzy
 msgid "<a name=\"diff-last\"></a> ### What did I just commit?"
 msgstr "<a name=\"diff-last\"></a> ### Tôi vừa commit cái gì?"
 
 #. type: Plain text
 #: README.md:282
-#, fuzzy
 msgid ""
 "Let's say that you just blindly committed changes with `git commit -a` and "
 "you're not sure what the actual content of the commit you just made was. You "
@@ -1061,25 +994,21 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:286
-#, fuzzy
 msgid "```sh (main)$ git show ```"
 msgstr "```sh (main)$ git show ```"
 
 #. type: Plain text
 #: README.md:288
-#, fuzzy
 msgid "Or"
 msgstr "Hoặc"
 
 #. type: Plain text
 #: README.md:292
-#, fuzzy
 msgid "```sh $ git log -n1 -p ```"
 msgstr "```sh $ git log -n1 -p ```"
 
 #. type: Plain text
 #: README.md:294
-#, fuzzy
 msgid ""
 "If you want to see a file at a specific commit, you can also do this (where "
 "`<commitid>` is the commit you're interested in):"
@@ -1089,19 +1018,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:298
-#, fuzzy
 msgid "```sh $ git show <commitid>:filename ```"
 msgstr "```sh $ git show <commitid>:filename ```"
 
 #. type: Plain text
 #: README.md:300
-#, fuzzy
 msgid "### I wrote the wrong thing in a commit message"
 msgstr "### Tôi đã viết sai vài thứ trong message (thông điệp) của commit"
 
 #. type: Plain text
 #: README.md:302
-#, fuzzy
 msgid ""
 "If you wrote the wrong thing and the commit has not yet been pushed, you can "
 "do the following to change the commit message without changing the changes "
@@ -1112,13 +1038,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:306
-#, fuzzy
 msgid "```sh $ git commit --amend --only ```"
 msgstr "```sh $ git commit --amend --only ```"
 
 #. type: Plain text
 #: README.md:308
-#, fuzzy
 msgid ""
 "This will open your default text editor, where you can edit the message. On "
 "the other hand, you can do this all in one command:"
@@ -1129,13 +1053,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:312
-#, fuzzy
 msgid "```sh $ git commit --amend --only -m 'xxxxxxx' ```"
 msgstr "```sh $ git commit --amend --only -m 'xxxxxxx' ```"
 
 #. type: Plain text
 #: README.md:314
-#, fuzzy
 msgid ""
 "If you have already pushed the message, you can amend the commit and force "
 "push, but this is not recommended."
@@ -1145,7 +1067,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:317
-#, fuzzy
 msgid ""
 "<a name=\"commit-wrong-author\"></a> ### I committed with the wrong name and "
 "email configured"
@@ -1155,13 +1076,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:319
-#, fuzzy
 msgid "If it's a single commit, amend it"
 msgstr "Nếu đó là một commit độc lập, chỉnh sửa nó:"
 
 #. type: Plain text
 #: README.md:323
-#, fuzzy
 msgid ""
 "```sh $ git commit --amend --no-edit --author \"New Authorname "
 "<authoremail@mydomain.com>\" ```"
@@ -1171,7 +1090,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:325
-#, fuzzy
 msgid ""
 "An alternative is to correctly configure your author settings in `git config "
 "--global author.(name|email)` and then use"
@@ -1181,13 +1099,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:329
-#, fuzzy
 msgid "```sh $ git commit --amend --reset-author --no-edit ```"
 msgstr "```sh $ git commit --amend --reset-author --no-edit ```"
 
 #. type: Plain text
 #: README.md:331
-#, fuzzy
 msgid ""
 "If you need to change all of history, see the man page for `git "
 "filter-branch`."
@@ -1197,13 +1113,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:333
-#, fuzzy
 msgid "### I want to remove a file from the previous commit"
 msgstr "### Tôi muốn xoá một file từ commit trước"
 
 #. type: Plain text
 #: README.md:335
-#, fuzzy
 msgid ""
 "In order to remove changes for a file from the previous commit, do the "
 "following:"
@@ -1211,7 +1125,6 @@ msgstr "Để xoá các thay đổi đối với một file khỏi commit trư�
 
 #. type: Plain text
 #: README.md:341
-#, fuzzy
 msgid ""
 "```sh $ git checkout HEAD^ myfile $ git add myfile $ git commit --amend "
 "--no-edit ```"
@@ -1221,7 +1134,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:343
-#, fuzzy
 msgid ""
 "In case the file was newly added to the commit and you want to remove it "
 "(from Git alone), do:"
@@ -1231,13 +1143,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:348
-#, fuzzy
 msgid "```sh $ git rm --cached myfile $ git commit --amend --no-edit ```"
 msgstr "```sh $ git rm --cached myfile $ git commit --amend --no-edit ```"
 
 #. type: Plain text
 #: README.md:350
-#, fuzzy
 msgid ""
 "This is particularly useful when you have an open patch and you have "
 "committed an unnecessary file, and need to force push to update the patch on "
@@ -1251,7 +1161,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:353
-#, fuzzy
 msgid ""
 "<a name=\"delete-pushed-commit\"></a> ### I want to delete or remove my last "
 "commit"
@@ -1261,7 +1170,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:355
-#, fuzzy
 msgid ""
 "If you need to delete pushed commits, you can use the following. However, it "
 "will irreversibly change your history, and mess up the history of anyone "
@@ -1275,7 +1183,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:360
-#, fuzzy
 msgid ""
 "```sh $ git reset HEAD^ --hard $ git push --force-with-lease [remote] "
 "[branch] ```"
@@ -1285,7 +1192,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:362
-#, fuzzy
 msgid ""
 "If you haven't pushed, to reset Git to the state it was in before you made "
 "your last commit (while keeping your staged changes):"
@@ -1295,19 +1201,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:365
-#, fuzzy
 msgid "``` (my-branch*)$ git reset --soft HEAD@{1}"
 msgstr "``` (my-branch*)$ git reset --soft HEAD@{1}"
 
 #. type: Plain text
 #: README.md:367 README.md:1341
-#, fuzzy
 msgid "```"
 msgstr "```"
 
 #. type: Plain text
 #: README.md:369
-#, fuzzy
 msgid ""
 "This only works if you haven't pushed. If you have pushed, the only truly "
 "safe thing to do is `git revert SHAofBadCommit`. That will create a new "
@@ -1325,19 +1228,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:372
-#, fuzzy
 msgid "<a name=\"delete-any-commit\"></a> ### Delete/remove arbitrary commit"
 msgstr "<a name=\"delete-any-commit\"></a> ### Xoá/loại bỏ bất kỳ commit nào"
 
 #. type: Plain text
 #: README.md:374
-#, fuzzy
 msgid "The same warning applies as above. Never do this if possible."
 msgstr "Lưu ý như trên. Không bao giờ làm điều này nếu có thể tránh được."
 
 #. type: Plain text
 #: README.md:379
-#, fuzzy
 msgid ""
 "```sh $ git rebase --onto SHA1_OF_BAD_COMMIT^ SHA1_OF_BAD_COMMIT $ git push "
 "--force-with-lease [remote] [branch] ```"
@@ -1347,7 +1247,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:381
-#, fuzzy
 msgid ""
 "Or do an [interactive rebase](#interactive-rebase) and remove the line(s) "
 "corresponding to commit(s) you want to see removed."
@@ -1357,7 +1256,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:384
-#, fuzzy
 msgid ""
 "<a name=\"#force-push\"></a> ### I tried to push my amended commit to a "
 "remote, but I got an error message"
@@ -1366,8 +1264,7 @@ msgstr ""
 "remote, nhưng tôi gặp thông báo lỗi"
 
 #. type: Plain text
-#: README.md:394
-#, fuzzy, no-wrap
+#: README.md:394, no-wrap
 msgid ""
 "```sh\n"
 "To https://github.com/yourusername/repo.git\n"
@@ -1395,7 +1292,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:396
-#, fuzzy
 msgid ""
 "Note that, as with rebasing (see below), amending **replaces the old commit "
 "with a new one**, so you must force push (`--force-with-lease`) your changes "
@@ -1410,13 +1306,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:400
-#, fuzzy
 msgid "```sh (my-branch)$ git push origin mybranch --force-with-lease ```"
 msgstr "```sh (my-branch)$ git push origin mybranch --force-with-lease ```"
 
 #. type: Plain text
 #: README.md:402
-#, fuzzy
 msgid ""
 "In general, **avoid force pushing**. It is best to create and push a new "
 "commit rather than force-pushing the amended commit as it will cause "
@@ -1434,7 +1328,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:404
-#, fuzzy
 msgid ""
 "If you are *absolutely* sure that nobody is working on the same branch or "
 "you want to update the tip of the branch *unconditionally*, you can use "
@@ -1446,7 +1339,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:407
-#, fuzzy
 msgid ""
 "<a href=\"undo-git-reset-hard\"></a> ### I accidentally did a hard reset, "
 "and I want my changes back"
@@ -1456,7 +1348,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:409
-#, fuzzy
 msgid ""
 "If you accidentally do `git reset --hard`, you can normally still get your "
 "commit back, as git keeps a log of everything for a few days."
@@ -1467,7 +1358,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:411
-#, fuzzy
 msgid ""
 "Note: This is only valid if your work is backed up, i.e., either committed "
 "or stashed. `git reset --hard` _will remove_ uncommitted modifications, so "
@@ -1480,13 +1370,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:415
-#, fuzzy
 msgid "```sh (main)$ git reflog ```"
 msgstr "```sh (main)$ git reflog ```"
 
 #. type: Plain text
 #: README.md:417
-#, fuzzy
 msgid ""
 "You'll see a list of your past commits, and a commit for the reset. Choose "
 "the SHA of the commit you want to return to, and reset again:"
@@ -1496,19 +1384,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:421
-#, fuzzy
 msgid "```sh (main)$ git reset --hard SHA1234 ```"
 msgstr "```sh (main)$ git reset --hard SHA1234 ```"
 
 #. type: Plain text
 #: README.md:423
-#, fuzzy
 msgid "And you should be good to go."
 msgstr "Thế này là xong."
 
 #. type: Plain text
 #: README.md:426
-#, fuzzy
 msgid ""
 "<a href=\"undo-a-commit-merge\"></a> ### I accidentally committed and pushed "
 "a merge"
@@ -1518,7 +1403,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:428
-#, fuzzy
 msgid ""
 "If you accidentally merged a feature branch to the main development branch "
 "before it was ready to be merged, you can still undo the merge. But there's "
@@ -1531,7 +1415,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:434
-#, fuzzy
 msgid ""
 "The command to use ```sh (feature-branch)$ git revert -m 1 <commit> ``` "
 "where the -m 1 option says to select parent number 1 (the branch into which "
@@ -1543,7 +1426,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:436
-#, fuzzy
 msgid ""
 "Note: the parent number is not a commit identifier. Rather, a merge commit "
 "has a line `Merge: 8e2ce2d 86ac2e7`. The parent number is the 1-based index "
@@ -1557,7 +1439,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:439
-#, fuzzy
 msgid ""
 "<a href=\"undo-sensitive-commit-push\"></a> ### I accidentally committed and "
 "pushed files containing sensitive data"
@@ -1567,7 +1448,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:441
-#, fuzzy
 msgid ""
 "If you accidentally pushed files containing sensitive, or private data "
 "(passwords, keys, etc.), you can amend the previous commit. Keep in mind "
@@ -1592,7 +1472,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:448
-#, fuzzy
 msgid ""
 "If you edit the file and remove the sensitive data, then run ```sh "
 "(feature-branch)$ git add edited_file (feature-branch)$ git commit --amend "
@@ -1604,7 +1483,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:458
-#, fuzzy
 msgid ""
 "If you want to remove an entire file (but keep it locally), then run ```sh "
 "(feature-branch)$ git rm --cached sensitive_file echo sensitive_file >> "
@@ -1622,7 +1500,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:460
-#, fuzzy
 msgid ""
 "If you want to completely remove an entire file (and not keep it locally), "
 "then run"
@@ -1632,7 +1509,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:466
-#, fuzzy
 msgid ""
 "```sh (feature-branch)$ git rm sensitive_file (feature-branch)$ git commit "
 "--amend --no-edit (feature-branch)$ git push --force-with-lease origin "
@@ -1644,7 +1520,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:468
-#, fuzzy
 msgid ""
 "If you have made other commits in the meantime (i.e. the sensitive data is "
 "in a commit before the previous commit), you will have to rebase."
@@ -1654,7 +1529,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:471
-#, fuzzy
 msgid ""
 "<a "
 "href=\"#i-want-to-remove-a-large-file-from-ever-existing-in-repo-history\"></a> "
@@ -1667,7 +1541,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:473
-#, fuzzy
 msgid ""
 "If the file you want to delete is secret or sensitive, instead see [how to "
 "remove sensitive "
@@ -1678,7 +1551,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:475
-#, fuzzy
 msgid ""
 "Even if you delete a large or unwanted file in a recent commit, it still "
 "exists in git history, in your repo's `.git` folder, and will make `git "
@@ -1690,7 +1562,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:477
-#, fuzzy
 msgid ""
 "The actions in this part of the guide will require a force push, and rewrite "
 "large sections of repo history, so if you are working with remote "
@@ -1702,7 +1573,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:479
-#, fuzzy
 msgid ""
 "There are two options for rewriting history, the built-in "
 "`git-filter-branch` or "
@@ -1723,13 +1593,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:481
-#, fuzzy
 msgid "#### Recommended Technique: Use third-party bfg"
 msgstr "#### Cách khuyến khích: Sử dụng dịch vụ bên thứ ba bfg"
 
 #. type: Plain text
 #: README.md:483
-#, fuzzy
 msgid ""
 "Using bfg-repo-cleaner requires java. Download the bfg jar from the link "
 "[here](https://rtyley.github.io/bfg-repo-cleaner/). Our examples will use "
@@ -1743,13 +1611,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:485
-#, fuzzy
 msgid "To delete a specific file."
 msgstr "Để xóa một file, dùng lệnh:"
 
 #. type: Plain text
 #: README.md:491
-#, fuzzy
 msgid ""
 "```sh (main)$ git rm path/to/filetoremove (main)$ git commit -m \"Commit "
 "removing filetoremove\" (main)$ java -jar ~/Downloads/bfg.jar --delete-files "
@@ -1761,7 +1627,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:493
-#, fuzzy
 msgid ""
 "Note that in bfg you must use the plain file name even if it is in a "
 "subdirectory."
@@ -1769,7 +1634,6 @@ msgstr "Lưu ý là với bfg bạn dùng tển của file chứ không phải �
 
 #. type: Plain text
 #: README.md:495
-#, fuzzy
 msgid "You can also delete a file by pattern, e.g.:"
 msgstr ""
 "Bạn cũng có thể xóa file dượng theo một khuôn mẫu, ví dụ xóa tất cả file "
@@ -1777,7 +1641,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:501
-#, fuzzy
 msgid ""
 "```sh (main)$ git rm *.jpg (main)$ git commit -m \"Commit removing *.jpg\" "
 "(main)$ java -jar ~/Downloads/bfg.jar --delete-files *.jpg ```"
@@ -1787,7 +1650,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:503
-#, fuzzy
 msgid ""
 "With bfg, the files that exist on your latest commit will not be "
 "affected. For example, if you had several large .tga files in your repo, and "
@@ -1801,7 +1663,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:505
-#, fuzzy
 msgid ""
 "Note, if you renamed a file as part of a commit, e.g. if it started as "
 "`LargeFileFirstName.mp4` and a commit changed it to "
@@ -1819,13 +1680,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:507
-#, fuzzy
 msgid "#### Built-in Technique: Use git-filter-branch"
 msgstr "#### Cách có sẵn: Sử dụng git-filter-branch"
 
 #. type: Plain text
 #: README.md:509
-#, fuzzy
 msgid ""
 "`git-filter-branch` is more cumbersome and has less features, but you may "
 "use it if you cannot install or run `bfg`."
@@ -1835,7 +1694,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:511
-#, fuzzy
 msgid ""
 "In the below, replace `filepattern` may be a specific name or pattern, "
 "e.g. `*.jpg`. This will remove files matching the pattern from all history "
@@ -1847,7 +1705,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:515
-#, fuzzy
 msgid ""
 "```sh (main)$ git filter-branch --force --index-filter 'git rm --cached "
 "--ignore-unmatch filepattern' --prune-empty --tag-name-filter cat -- --all "
@@ -1859,13 +1716,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:517
-#, fuzzy
 msgid "Behind-the-scenes explanation:"
 msgstr "Giải thích lệnh trên:"
 
 #. type: Plain text
 #: README.md:519
-#, fuzzy
 msgid ""
 "`--tag-name-filter cat` is a cumbersome, but simplest, way to apply the "
 "original tags to the new commits, using the command cat."
@@ -1875,19 +1730,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:521
-#, fuzzy
 msgid "`--prune-empty` removes any now-empty commits."
 msgstr "`--prune-empty` xóa những commit bây giờ để trống rỗng."
 
 #. type: Plain text
 #: README.md:523
-#, fuzzy
 msgid "#### Final Step: Pushing your changed repo history"
 msgstr "#### Bước cuối: Đẩy lịch sử đã thay đổi của repository"
 
 #. type: Plain text
 #: README.md:530
-#, fuzzy
 msgid ""
 "Once you have removed your desired files, test carefully that you haven't "
 "broken anything in your repo - if you have, it is easiest to re-clone your "
@@ -1905,7 +1757,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:536
-#, fuzzy
 msgid ""
 "Since you just rewrote the entire git repo history, the `git push` operation "
 "may be too large, and return the error `“The remote end hung up "
@@ -1921,7 +1772,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:542
-#, fuzzy
 msgid ""
 "If this does not work, you will need to manually push the repo history in "
 "chunks of commits. In the command below, try increasing `<number>` until the "
@@ -1938,7 +1788,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:545
-#, fuzzy
 msgid ""
 "<a "
 "href=\"i-need-to-change-the-content-of-a-commit-which-is-not-my-last\"></a> "
@@ -1951,7 +1800,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:547
-#, fuzzy
 msgid ""
 "Consider you created some (e.g. three) commits and later realize you missed "
 "doing something that belongs contextually into the first of those "
@@ -1972,7 +1820,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:549
-#, fuzzy
 msgid ""
 "Consider a situation where you want to change the third last commit you "
 "made."
@@ -1980,13 +1827,11 @@ msgstr "Hay xem trường hợp mà bạn muốn thay đổi commit số ba nế
 
 #. type: Plain text
 #: README.md:553
-#, fuzzy
 msgid "```sh (your-branch)$ git rebase -i HEAD~4 ```"
 msgstr "```sh (nhánh-bạn)$ git rebase -i HEAD~4 ```"
 
 #. type: Plain text
 #: README.md:555
-#, fuzzy
 msgid ""
 "gets you into interactive rebase mode, which allows you to edit any of your "
 "last three commits. A text editor pops up, showing you something like"
@@ -1997,7 +1842,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:561
-#, fuzzy
 msgid ""
 "```sh pick 9e1d264 The third last commit pick 4b6e19a The second to last "
 "commit pick f4037ec The last commit ```"
@@ -2007,13 +1851,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:563
-#, fuzzy
 msgid "which you change into"
 msgstr "và bạn thay/viết thành:"
 
 #. type: Plain text
 #: README.md:569
-#, fuzzy
 msgid ""
 "```sh edit 9e1d264 The third last commit pick 4b6e19a The second to last "
 "commit pick f4037ec The last commit ```"
@@ -2023,7 +1865,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:571
-#, fuzzy
 msgid ""
 "This tells rebase that you want to edit your third last commit and keep the "
 "other two unaltered. Then you'll save (and close) the editor. Git will then "
@@ -2042,13 +1883,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:575
-#, fuzzy
 msgid "```sh (your-branch)$ git commit --amend ```"
 msgstr "```sh (your-branch)$ git commit --amend ```"
 
 #. type: Plain text
 #: README.md:577
-#, fuzzy
 msgid ""
 "which tells Git to recreate the commit, but to leave the commit message "
 "unedited. Having done that, the hard part is solved."
@@ -2059,25 +1898,21 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:581
-#, fuzzy
 msgid "```sh (your-branch)$ git rebase --continue ```"
 msgstr "```sh (your-branch)$ git rebase --continue ```"
 
 #. type: Plain text
 #: README.md:583
-#, fuzzy
 msgid "will do the rest of the work for you."
 msgstr "Lệnh trên sẽ giải quyết phần còn lại."
 
 #. type: Plain text
 #: README.md:585
-#, fuzzy
 msgid "## Staging"
 msgstr "## Staging (sân chuyển tiếp)"
 
 #. type: Plain text
 #: README.md:587
-#, fuzzy
 msgid ""
 "<a "
 "href=\"#i-want-to-stage-all-tracked-files-and-leave-untracked-files\"></a>"
@@ -2087,7 +1922,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:589
-#, fuzzy
 msgid "### I want to stage all tracked files and leave untracked files"
 msgstr ""
 "### Tôi muốn nâng lên stage tất cả file đang theo dõi và bỏ qua file không "
@@ -2095,31 +1929,26 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:593
-#, fuzzy
 msgid "```sh $ git add -u ```"
 msgstr "```sh $ git add -u ```"
 
 #. type: Plain text
 #: README.md:595
-#, fuzzy
 msgid "#### To stage part of tracked files"
 msgstr "#### Chỉ nâng một phần các file đang theo dõi"
 
 #. type: Plain text
 #: README.md:599
-#, fuzzy
 msgid "```sh # to stage files with ext .txt $ git add -u *.txt"
 msgstr "```sh # Để nâng các file dạng .txt $ git add -u *.txt"
 
 #. type: Plain text
 #: README.md:603
-#, fuzzy
 msgid "# to stage all files inside directory src $ git add -u src/ ```"
 msgstr "# Để nang các file trong thu mục src $ git add -u src/ ```"
 
 #. type: Plain text
 #: README.md:606
-#, fuzzy
 msgid ""
 "<a href=\"#i-need-to-add-staged-changes-to-the-previous-commit\"></a> ### I "
 "need to add staged changes to the previous commit"
@@ -2129,13 +1958,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:610
-#, fuzzy
 msgid "```sh (my-branch*)$ git commit --amend ```"
 msgstr "```sh (my-branch*)$ git commit --amend ```"
 
 #. type: Plain text
 #: README.md:612
-#, fuzzy
 msgid ""
 "If you already know you don't want to change the commit message, you can "
 "tell git to reuse the commit message:"
@@ -2145,13 +1972,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:616
-#, fuzzy
 msgid "```sh (my-branch*)$ git commit --amend -C HEAD ```"
 msgstr "```sh (my-branch*)$ git commit --amend -C HEAD ```"
 
 #. type: Plain text
 #: README.md:619
-#, fuzzy
 msgid ""
 "<a name=\"commit-partial-new-file\"></a> ### I want to stage part of a new "
 "file, but not the whole file"
@@ -2161,19 +1986,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:621
-#, fuzzy
 msgid "Normally, if you want to stage part of a file, you run this:"
 msgstr "Thông thường, nếu bạn muốn stage một phần của một file, bạn chạy lệnh này:"
 
 #. type: Plain text
 #: README.md:625
-#, fuzzy
 msgid "```sh $ git add --patch filename.x ```"
 msgstr "```sh $ git add --patch filename.x ```"
 
 #. type: Plain text
 #: README.md:627
-#, fuzzy
 msgid ""
 "`-p` will work for short. This will open interactive mode. You would be able "
 "to use the `s` option to split the commit - however, if the file is new, you "
@@ -2185,13 +2007,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:631
-#, fuzzy
 msgid "```sh $ git add -N filename.x ```"
 msgstr "```sh $ git add -N filename.x ```"
 
 #. type: Plain text
 #: README.md:634
-#, fuzzy
 msgid ""
 "Then, you will need to use the `e` option to manually choose which lines to "
 "add. Running `git diff --cached` or `git diff --staged` will show you which "
@@ -2203,7 +2023,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:637
-#, fuzzy
 msgid ""
 "<a href=\"stage-in-two-commits\"></a> ### I want to add changes in one file "
 "to two different commits"
@@ -2213,7 +2032,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:639
-#, fuzzy
 msgid ""
 "`git add` will add the entire file to a commit. `git add -p` will allow to "
 "interactively select which changes you want to add."
@@ -2223,7 +2041,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:642
-#, fuzzy
 msgid ""
 "<a href=\"selective-unstage-edits\"></a> ### I staged too many edits, and I "
 "want to break them out into a separate commit"
@@ -2233,7 +2050,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:644
-#, fuzzy
 msgid ""
 "`git reset -p` will open a patch mode reset dialog.  This is similar to `git "
 "add -p`, except that selecting \"yes\" will unstage the change, removing it "
@@ -2245,7 +2061,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:647
-#, fuzzy
 msgid ""
 "<a href=\"unstaging-edits-and-staging-the-unstaged\"></a> ### I want to "
 "stage my unstaged edits, and unstage my staged edits"
@@ -2256,7 +2071,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:649
-#, fuzzy
 msgid ""
 "In many cases, you should unstage all of your staged files and then pick the "
 "file you want and commit it. However, if you want to switch the staged and "
@@ -2272,7 +2086,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:657
-#, fuzzy
 msgid ""
 "```sh $ git commit -m \"WIP\" $ git add . # This will also add untracked "
 "files.  $ git stash $ git reset HEAD^ $ git stash pop --index 0 ```"
@@ -2282,7 +2095,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:660
-#, fuzzy
 msgid ""
 "NOTE 1: The reason to use `pop` here is want to keep idempotent as much as "
 "possible.  NOTE 2: Your staged files will be marked as unstaged if you don't "
@@ -2298,13 +2110,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:662
-#, fuzzy
 msgid "## Unstaged Edits"
 msgstr "## Thay đổi chưa lên sân (Unstaged Edits)"
 
 #. type: Plain text
 #: README.md:665
-#, fuzzy
 msgid ""
 "<a href=\"move-unstaged-edits-to-new-branch\"></a> ### I want to move my "
 "unstaged edits to a new branch"
@@ -2314,13 +2124,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:669
-#, fuzzy
 msgid "```sh $ git checkout -b my-branch ```"
 msgstr "```sh $ git checkout -b nhánh-mới ```"
 
 #. type: Plain text
 #: README.md:672
-#, fuzzy
 msgid ""
 "<a href=\"move-unstaged-edits-to-old-branch\"></a> ### I want to move my "
 "unstaged edits to a different, existing branch"
@@ -2330,13 +2138,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:678
-#, fuzzy
 msgid "```sh $ git stash $ git checkout my-branch $ git stash pop ```"
 msgstr "```sh $ git stash $ git checkout nhánh-tồn-tại $ git stash pop ```"
 
 #. type: Plain text
 #: README.md:681
-#, fuzzy
 msgid ""
 "<a href=\"i-want-to-discard-my-local-uncommitted-changes\"></a> ### I want "
 "to discard my local uncommitted changes (staged and unstaged)"
@@ -2346,7 +2152,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:683
-#, fuzzy
 msgid ""
 "If you want to discard all your local staged and unstaged changes, you can "
 "do this:"
@@ -2356,13 +2161,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:689
-#, fuzzy
 msgid "```sh (my-branch)$ git reset --hard # or (main)$ git checkout -f ```"
 msgstr "```sh (my-branch)$ git reset --hard # hoặc (main)$ git checkout -f ```"
 
 #. type: Plain text
 #: README.md:691
-#, fuzzy
 msgid "This will unstage all files you might have staged with `git add`:"
 msgstr ""
 "Lệnh sau sẽ hạ khỏi stage tất cả thay đổi bạn đã cho lên stage với `git "
@@ -2370,13 +2173,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:695
-#, fuzzy
 msgid "```sh $ git reset ```"
 msgstr "```sh $ git reset ```"
 
 #. type: Plain text
 #: README.md:697
-#, fuzzy
 msgid ""
 "This will revert all local uncommitted changes (should be executed in repo "
 "root):"
@@ -2386,13 +2187,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:701
-#, fuzzy
 msgid "```sh $ git checkout .  ```"
 msgstr "```sh $ git checkout .  ```"
 
 #. type: Plain text
 #: README.md:703
-#, fuzzy
 msgid "You can also revert uncommitted changes to a particular file or directory:"
 msgstr ""
 "Bạn cũng có thể đảo ngược các thay đổi chưa commit cho một file hoặc một thư "
@@ -2400,13 +2199,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:707
-#, fuzzy
 msgid "```sh $ git checkout [some_dir|file.txt] ```"
 msgstr "```sh $ git checkout [thư_mục|file.txt] ```"
 
 #. type: Plain text
 #: README.md:709
-#, fuzzy
 msgid ""
 "Yet another way to revert all uncommitted changes (longer to type, but works "
 "from any subdirectory):"
@@ -2416,13 +2213,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:713
-#, fuzzy
 msgid "```sh $ git reset --hard HEAD ```"
 msgstr "```sh $ git reset --hard HEAD ```"
 
 #. type: Plain text
 #: README.md:715
-#, fuzzy
 msgid ""
 "This will remove all local untracked files, so only files tracked by Git "
 "remain:"
@@ -2432,25 +2227,21 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:719
-#, fuzzy
 msgid "```sh $ git clean -fd ```"
 msgstr "```sh $ git clean -fd ```"
 
 #. type: Plain text
 #: README.md:721
-#, fuzzy
 msgid "`-x` will also remove all ignored files."
 msgstr "Thêm cờ `-x` để xoá tất cả các file đã ignore."
 
 #. type: Plain text
 #: README.md:723
-#, fuzzy
 msgid "### I want to discard specific unstaged changes"
 msgstr "### Tôi muốn loại bỏ các thay đổi cụ thể chưa lên stage"
 
 #. type: Plain text
 #: README.md:725
-#, fuzzy
 msgid "When you want to get rid of some, but not all changes in your working copy."
 msgstr ""
 "Khi bạn muốn loại bỏ một số, nhưng không phải tất cả, các thay đổi trong bản "
@@ -2458,13 +2249,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:727
-#, fuzzy
 msgid "Checkout undesired changes, keep good changes."
 msgstr "Checkout các thay đổi không mong muốn, giữ các thay đổi tốt."
 
 #. type: Plain text
 #: README.md:732
-#, fuzzy
 msgid ""
 "```sh $ git checkout -p # Answer y to all of the snippets you want to drop "
 "```"
@@ -2474,7 +2263,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:734
-#, fuzzy
 msgid ""
 "Another strategy involves using `stash`. Stash all the good changes, reset "
 "working copy, and reapply good changes."
@@ -2484,7 +2272,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:741
-#, fuzzy
 msgid ""
 "```sh $ git stash -p # Select all of the snippets you want to save $ git "
 "reset --hard $ git stash pop ```"
@@ -2494,7 +2281,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:743
-#, fuzzy
 msgid "Alternatively, stash your undesired changes, and then drop stash."
 msgstr ""
 "Ngoài ra, còn cách cất những thay đổi không mong muốn của bạn và sau đó drop "
@@ -2502,7 +2288,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:749
-#, fuzzy
 msgid ""
 "```sh $ git stash -p # Select all of the snippets you don't want to save $ "
 "git stash drop ```"
@@ -2512,25 +2297,21 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:751
-#, fuzzy
 msgid "### I want to discard specific unstaged files"
 msgstr "### Tôi muốn loại bỏ các file cụ thể chưa lên stage"
 
 #. type: Plain text
 #: README.md:753
-#, fuzzy
 msgid "When you want to get rid of one specific file in your working copy."
 msgstr "Khi bạn muốn loại bỏ một file cụ thể trong bản sao làm việc của bạn."
 
 #. type: Plain text
 #: README.md:757
-#, fuzzy
 msgid "```sh $ git checkout myFile ```"
 msgstr "```sh $ git checkout FileCủaTôi ```"
 
 #. type: Plain text
 #: README.md:759
-#, fuzzy
 msgid ""
 "Alternatively, to discard multiple files in your working copy, list them "
 "all."
@@ -2540,25 +2321,21 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:763
-#, fuzzy
 msgid "```sh $ git checkout myFirstFile mySecondFile ```"
 msgstr "```sh $ git checkout FileThứNhất FileThứHai ```"
 
 #. type: Plain text
 #: README.md:765
-#, fuzzy
 msgid "### I want to discard only my unstaged local changes"
 msgstr "### Tôi muốn chỉ loại bỏ các thay đổi chưa lên stage tại local"
 
 #. type: Plain text
 #: README.md:767
-#, fuzzy
 msgid "When you want to get rid of all of your unstaged local uncommitted changes"
 msgstr "Khi bạn muốn loại bỏ tất cả các thay đổi chưa commit mà chưa stage tại local"
 
 #. type: Plain text
 #: README.md:773
-#, fuzzy
 msgid ""
 "```sh $ git checkout .  ``` <a "
 "href=\"i-want-to-discard-all-my-untracked-files\"></a> ### I want to discard "
@@ -2570,19 +2347,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:775
-#, fuzzy
 msgid "When you want to get rid of all of your untracked files"
 msgstr "Khi bạn muốn loại bỏ tất cả các file chưa được theo dõi"
 
 #. type: Plain text
 #: README.md:779
-#, fuzzy
 msgid "```sh $ git clean -f ```"
 msgstr "```sh $ git clean -f ```"
 
 #. type: Plain text
 #: README.md:782
-#, fuzzy
 msgid ""
 "<a href=\"I-want-to-unstage-specific-staged-file\"></a> ### I want to "
 "unstage a specific staged file"
@@ -2592,7 +2366,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:784
-#, fuzzy
 msgid ""
 "Sometimes we have one or more files that accidentally ended up being staged, "
 "and these files have not been committed before. To unstage them:"
@@ -2602,67 +2375,56 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:788
-#, fuzzy
 msgid "```sh $ git reset -- <filename> ```"
 msgstr "```sh $ git reset -- <TênFile> ```"
 
 #. type: Plain text
 #: README.md:790
-#, fuzzy
 msgid "This results in unstaging the file and make it look like it's untracked."
 msgstr "Lệnh trên sẽ hạ file khỏi stage và làm nó không được theo dõi (untracked)."
 
 #. type: Plain text
 #: README.md:792
-#, fuzzy
 msgid "## Branches"
 msgstr "## Nhánh"
 
 #. type: Plain text
 #: README.md:794
-#, fuzzy
 msgid "### I want to list all branches"
 msgstr "### Tôi muốn liệt kê tất cả các nhánh"
 
 #. type: Plain text
 #: README.md:796
-#, fuzzy
 msgid "List local branches"
 msgstr "Liệt kê các nhanh tại local"
 
 #. type: Plain text
 #: README.md:800
-#, fuzzy
 msgid "```sh $ git branch ```"
 msgstr "```sh $ git branch ```"
 
 #. type: Plain text
 #: README.md:802
-#, fuzzy
 msgid "List remote branches"
 msgstr "Liệt kê cách nhánh trên remote"
 
 #. type: Plain text
 #: README.md:806
-#, fuzzy
 msgid "```sh $ git branch -r ```"
 msgstr "```sh $ git branch -r ```"
 
 #. type: Plain text
 #: README.md:808
-#, fuzzy
 msgid "List all branches (both local and remote)"
 msgstr "Liệt kê tất cả các nhánh (cả local và remote)"
 
 #. type: Plain text
 #: README.md:812
-#, fuzzy
 msgid "```sh $ git branch -a ```"
 msgstr "```sh $ git branch -a ```"
 
 #. type: Plain text
 #: README.md:818
-#, fuzzy
 msgid ""
 "<a name=\"create-branch-from-commit\"></a> ### Create a branch from a commit "
 "```sh $ git checkout -b <branch> <SHA1_OF_COMMIT> ```"
@@ -2672,13 +2434,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:821
-#, fuzzy
 msgid "<a name=\"pull-wrong-branch\"></a> ### I pulled from/into the wrong branch"
 msgstr "<a name=\"pull-wrong-branch\"></a> ### Tôi đã pull (kéo) từ/vào sai nhánh"
 
 #. type: Plain text
 #: README.md:823
-#, fuzzy
 msgid ""
 "This is another chance to use `git reflog` to see where your HEAD pointed "
 "before the bad pull."
@@ -2688,7 +2448,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:829
-#, fuzzy
 msgid ""
 "```sh (main)$ git reflog ab7555f HEAD@{0}: pull origin wrong-branch: "
 "Fast-forward c5bc55a HEAD@{1}: checkout: checkout message goes here ```"
@@ -2698,25 +2457,21 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:831
-#, fuzzy
 msgid "Simply reset your branch back to the desired commit:"
 msgstr "Chỉ cần reset nhánh của bạn về commit mong muốn:"
 
 #. type: Plain text
 #: README.md:835
-#, fuzzy
 msgid "```sh $ git reset --hard c5bc55a ```"
 msgstr "```sh $ git reset --hard c5bc55a ```"
 
 #. type: Plain text
 #: README.md:837
-#, fuzzy
 msgid "Done."
 msgstr "Xong."
 
 #. type: Plain text
 #: README.md:840
-#, fuzzy
 msgid ""
 "<a href=\"discard-local-commits\"></a> ### I want to discard local commits "
 "so my branch is the same as one on the server"
@@ -2726,19 +2481,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:842
-#, fuzzy
 msgid "Confirm that you haven't pushed your changes to the server."
 msgstr "Kiểm tra rằng bạn chưa push các thay đổi của mình đến server."
 
 #. type: Plain text
 #: README.md:844
-#, fuzzy
 msgid "`git status` should show how many commits you are ahead of origin:"
 msgstr "`git status` sẽ hiển thị số lượng các commit bạn có hơn origin:"
 
 #. type: Plain text
-#: README.md:852
-#, fuzzy, no-wrap
+#: README.md:852, no-wrap
 msgid ""
 "```sh\n"
 "(my-branch)$ git status\n"
@@ -2758,7 +2510,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:854
-#, fuzzy
 msgid ""
 "One way of resetting to match origin (to have the same as what is on the "
 "remote) is to do this:"
@@ -2768,13 +2519,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:858
-#, fuzzy
 msgid "```sh (main)$ git reset --hard origin/my-branch ```"
 msgstr "```sh (main)$ git reset --hard origin/my-branch ```"
 
 #. type: Plain text
 #: README.md:861
-#, fuzzy
 msgid ""
 "<a name=\"commit-wrong-branch\"></a> ### I committed to main instead of a "
 "new branch"
@@ -2784,31 +2533,26 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:863
-#, fuzzy
 msgid "Create the new branch while remaining on main:"
 msgstr "Tạo nhánh mới trong khi giữ main:"
 
 #. type: Plain text
 #: README.md:867
-#, fuzzy
 msgid "```sh (main)$ git branch my-branch ```"
 msgstr "```sh (main)$ git branch my-branch ```"
 
 #. type: Plain text
 #: README.md:869
-#, fuzzy
 msgid "Reset the branch main to the previous commit:"
 msgstr "Reset nhánh main đến commit trước đó:"
 
 #. type: Plain text
 #: README.md:873
-#, fuzzy
 msgid "```sh (main)$ git reset --hard HEAD^ ```"
 msgstr "```sh (main)$ git reset --hard HEAD^ ```"
 
 #. type: Plain text
 #: README.md:875
-#, fuzzy
 msgid ""
 "`HEAD^` is short for `HEAD^1`. This stands for the first parent of `HEAD`, "
 "similarly `HEAD^2` stands for the second parent of the commit (merges can "
@@ -2820,7 +2564,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:877
-#, fuzzy
 msgid ""
 "Note that `HEAD^2` is **not** the same as `HEAD~2` (see [this "
 "link](http://www.paulboxley.com/blog/2011/06/git-caret-and-tilde) for more "
@@ -2832,7 +2575,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:879
-#, fuzzy
 msgid ""
 "Alternatively, if you don't want to use `HEAD^`, find out what the commit "
 "hash you want to set your main branch to (`git log` should do the "
@@ -2845,7 +2587,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:881
-#, fuzzy
 msgid ""
 "For example, if the hash of the commit that your main branch is supposed to "
 "be at is `a13b85e`:"
@@ -2853,25 +2594,21 @@ msgstr "Ví dụ, nếu hash của commit mà nhánh main của bạn đáng ra 
 
 #. type: Plain text
 #: README.md:886 README.md:965
-#, fuzzy
 msgid "```sh (main)$ git reset --hard a13b85e HEAD is now at a13b85e ```"
 msgstr "```sh (main)$ git reset --hard a13b85e HEAD is now at a13b85e ```"
 
 #. type: Plain text
 #: README.md:888
-#, fuzzy
 msgid "Checkout the new branch to continue working:"
 msgstr "Checkout một nhánh mới để tiếp tục làm việc:"
 
 #. type: Plain text
 #: README.md:892
-#, fuzzy
 msgid "```sh (main)$ git checkout my-branch ```"
 msgstr "```sh (main)$ git checkout my-branch ```"
 
 #. type: Plain text
 #: README.md:895
-#, fuzzy
 msgid ""
 "<a name=\"keep-whole-file\"></a> ### I want to keep the whole file from "
 "another ref-ish"
@@ -2881,7 +2618,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:897
-#, fuzzy
 msgid ""
 "Say you have a working spike (see note), with hundreds of "
 "changes. Everything is working. Now, you commit into another branch to save "
@@ -2893,7 +2629,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:901
-#, fuzzy
 msgid ""
 "```sh (solution)$ git add -A && git commit -m \"Adding all changes from this "
 "spike into one big commit.\" ```"
@@ -2903,7 +2638,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:903
-#, fuzzy
 msgid ""
 "When you want to put it into a branch (maybe feature, maybe `develop`), "
 "you're interested in keeping whole files. You want to split your big commit "
@@ -2915,13 +2649,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:905
-#, fuzzy
 msgid "Say you have:"
 msgstr "Giả sử bạn có:"
 
 #. type: Bullet: '  * '
 #: README.md:908
-#, fuzzy
 msgid "branch `solution`, with the solution to your spike. One ahead of `develop`."
 msgstr ""
 "nhánh `solution`, với giáp pháp bạn phát triển với cột mũi làm việc của "
@@ -2929,25 +2661,21 @@ msgstr ""
 
 #. type: Bullet: '  * '
 #: README.md:908
-#, fuzzy
 msgid "branch `develop`, where you want to add your changes."
 msgstr "nhánh `develop`, nơi bạn muốn thêm các thay đổi của bạn."
 
 #. type: Plain text
 #: README.md:910
-#, fuzzy
 msgid "You can solve it bringing the contents to your branch:"
 msgstr "Bạn có thể giải quyết bằng cách mang nội dung thay đổi sang nhánh của bạn:"
 
 #. type: Plain text
 #: README.md:914
-#, fuzzy
 msgid "```sh (develop)$ git checkout solution -- file1.txt ```"
 msgstr "```sh (develop)$ git checkout solution -- file1.txt ```"
 
 #. type: Plain text
 #: README.md:916
-#, fuzzy
 msgid ""
 "This will get the contents of that file in branch `solution` to your branch "
 "`develop`:"
@@ -2956,8 +2684,7 @@ msgstr ""
 "`develop` của bạn:"
 
 #. type: Plain text
-#: README.md:925
-#, fuzzy, no-wrap
+#: README.md:925, no-wrap
 msgid ""
 "```sh\n"
 "# On branch develop\n"
@@ -2979,13 +2706,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:927
-#, fuzzy
 msgid "Then, commit as usual."
 msgstr "Sau đó, commit như bình thường."
 
 #. type: Plain text
 #: README.md:929
-#, fuzzy
 msgid ""
 "Note: Spike solutions are made to analyze or solve the problem. These "
 "solutions are used for estimation and discarded once everyone gets clear "
@@ -2999,7 +2724,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:932
-#, fuzzy
 msgid ""
 "<a name=\"cherry-pick\"></a> ### I made several commits on a single branch "
 "that should be on different branches"
@@ -3009,7 +2733,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:934
-#, fuzzy
 msgid ""
 "Say you are on your main branch. Running `git log`, you see you have made "
 "two commits:"
@@ -3019,13 +2742,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:937
-#, fuzzy
 msgid "```sh (main)$ git log"
 msgstr "```sh (main)$ git log"
 
 #. type: Plain text
-#: README.md:941
-#, fuzzy, no-wrap
+#: README.md:941, no-wrap
 msgid ""
 "commit e3851e817c451cc36f2e6f3049db528415e3c114\n"
 "Author: Alex Lee <alexlee@example.com>\n"
@@ -3036,14 +2757,12 @@ msgstr ""
 "Date:   Tue Jul 22 15:39:27 2014 -0400\n"
 
 #. type: Plain text
-#: README.md:943
-#, fuzzy, no-wrap
+#: README.md:943, no-wrap
 msgid "    Bug #21 - Added CSRF protection\n"
 msgstr "    Bug #21 - Added CSRF protection\n"
 
 #. type: Plain text
-#: README.md:947
-#, fuzzy, no-wrap
+#: README.md:947, no-wrap
 msgid ""
 "commit 5ea51731d150f7ddc4a365437931cd8be3bf3131\n"
 "Author: Alex Lee <alexlee@example.com>\n"
@@ -3054,14 +2773,12 @@ msgstr ""
 "Date:   Tue Jul 22 15:39:12 2014 -0400\n"
 
 #. type: Plain text
-#: README.md:949
-#, fuzzy, no-wrap
+#: README.md:949, no-wrap
 msgid "    Bug #14 - Fixed spacing on title\n"
 msgstr "    Bug #14 - Fixed spacing on title\n"
 
 #. type: Plain text
-#: README.md:953
-#, fuzzy, no-wrap
+#: README.md:953, no-wrap
 msgid ""
 "commit a13b85e984171c6e2a1729bb061994525f626d14\n"
 "Author: Aki Rose <akirose@example.com>\n"
@@ -3072,8 +2789,7 @@ msgstr ""
 "Date:   Tue Jul 21 01:12:48 2014 -0400\n"
 
 #. type: Plain text
-#: README.md:956
-#, fuzzy, no-wrap
+#: README.md:956, no-wrap
 msgid ""
 "    First commit\n"
 "```\n"
@@ -3083,7 +2799,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:958
-#, fuzzy
 msgid ""
 "Let's take note of our commit hashes for each bug (`e3851e8` for #21, "
 "`5ea5173` for #14)."
@@ -3093,7 +2808,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:960
-#, fuzzy
 msgid "First, let's reset our main branch to the correct commit (`a13b85e`):"
 msgstr ""
 "Trước tiên, hãy đặt lại nhánh main của chúng ta về commit chính xác "
@@ -3101,19 +2815,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:967
-#, fuzzy
 msgid "Now, we can create a fresh branch for our bug #21:"
 msgstr "Bây giờ, chúng ta có thể tạo ra một nhánh mới cho lỗi #21 của chúng ta:"
 
 #. type: Plain text
 #: README.md:972
-#, fuzzy
 msgid "```sh (main)$ git checkout -b 21 (21)$ ```"
 msgstr "```sh (main)$ git checkout -b 21 (21)$ ```"
 
 #. type: Plain text
 #: README.md:974
-#, fuzzy
 msgid ""
 "Now, let's *cherry-pick* the commit for bug #21 on top of our branch. That "
 "means we will be applying that commit, and only that commit, directly on top "
@@ -3125,13 +2836,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:978
-#, fuzzy
 msgid "```sh (21)$ git cherry-pick e3851e8 ```"
 msgstr "```sh (21)$ git cherry-pick e3851e8 ```"
 
 #. type: Plain text
 #: README.md:980
-#, fuzzy
 msgid ""
 "At this point, there is a possibility there might be conflicts. See the "
 "[**There were conflicts**](#merge-conflict) section in the [interactive "
@@ -3144,7 +2853,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:982
-#, fuzzy
 msgid "Now let's create a new branch for bug #14, also based on main"
 msgstr ""
 "Bây giờ chúng ta hãy tạo một nhánh mới cho bug # 14, cũng dựa trên nhánh "
@@ -3152,25 +2860,21 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:988
-#, fuzzy
 msgid "```sh (21)$ git checkout main (main)$ git checkout -b 14 (14)$ ```"
 msgstr "```sh (21)$ git checkout main (main)$ git checkout -b 14 (14)$ ```"
 
 #. type: Plain text
 #: README.md:990
-#, fuzzy
 msgid "And finally, let's cherry-pick the commit for bug #14:"
 msgstr "Và cuối cùng, hãy cherry-pick commit cho bug #14:"
 
 #. type: Plain text
 #: README.md:994
-#, fuzzy
 msgid "```sh (14)$ git cherry-pick 5ea5173 ```"
 msgstr "```sh (14)$ git cherry-pick 5ea5173 ```"
 
 #. type: Plain text
 #: README.md:997
-#, fuzzy
 msgid ""
 "<a name=\"delete-stale-local-branches\"></a> ### I want to delete local "
 "branches that were deleted upstream"
@@ -3180,7 +2884,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:999
-#, fuzzy
 msgid ""
 "Once you merge a pull request on GitHub, it gives you the option to delete "
 "the merged branch in your fork. If you aren't planning to keep working on "
@@ -3196,25 +2899,21 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1003
-#, fuzzy
 msgid "```sh $ git fetch -p upstream ```"
 msgstr "```sh $ git fetch -p upstream ```"
 
 #. type: Plain text
 #: README.md:1005
-#, fuzzy
 msgid "where, `upstream` is the remote you want to fetch from."
 msgstr "upstream` là remote bạn muốn fetch (gọi) về."
 
 #. type: Plain text
 #: README.md:1008
-#, fuzzy
 msgid "<a name='restore-a-deleted-branch'></a> ### I accidentally deleted my branch"
 msgstr "<a name='restore-a-deleted-branch'></a> ### Tôi vô tình xóa nhánh của tôi"
 
 #. type: Plain text
 #: README.md:1010
-#, fuzzy
 msgid ""
 "If you're regularly pushing to remote, you should be safe most of the "
 "time. But still sometimes you may end up deleting your branches. Let's say "
@@ -3226,7 +2925,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1018
-#, fuzzy
 msgid ""
 "```sh (main)$ git checkout -b my-branch (my-branch)$ git branch (my-branch)$ "
 "touch foo.txt (my-branch)$ ls README.md foo.txt ```"
@@ -3236,13 +2934,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1020
-#, fuzzy
 msgid "Let's add it and commit."
 msgstr "Hãy thêm nó và rồi tạo commit."
 
 #. type: Plain text
-#: README.md:1028
-#, fuzzy, no-wrap
+#: README.md:1028, no-wrap
 msgid ""
 "```sh\n"
 "(my-branch)$ git add .\n"
@@ -3261,8 +2957,7 @@ msgstr ""
 "(my-branch)$ git log\n"
 
 #. type: Plain text
-#: README.md:1032
-#, fuzzy, no-wrap
+#: README.md:1032, no-wrap
 msgid ""
 "commit 4e3cd85a670ced7cc17a2b5d8d3d809ac88d5012\n"
 "Author: siemiatj <siemiatj@example.com>\n"
@@ -3273,14 +2968,12 @@ msgstr ""
 "Date:   Wed Jul 30 00:34:10 2014 +0200\n"
 
 #. type: Plain text
-#: README.md:1034
-#, fuzzy, no-wrap
+#: README.md:1034, no-wrap
 msgid "    foo.txt added\n"
 msgstr "    foo.txt added\n"
 
 #. type: Plain text
-#: README.md:1038
-#, fuzzy, no-wrap
+#: README.md:1038, no-wrap
 msgid ""
 "commit 69204cdf0acbab201619d95ad8295928e7f411d5\n"
 "Author: Kate Hudson <katehudson@example.com>\n"
@@ -3291,8 +2984,7 @@ msgstr ""
 "Date:   Tue Jul 29 13:14:46 2014 -0400\n"
 
 #. type: Plain text
-#: README.md:1041
-#, fuzzy, no-wrap
+#: README.md:1041, no-wrap
 msgid ""
 "    Fixes #6: Force pushing after amending commits\n"
 "```\n"
@@ -3302,13 +2994,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1043
-#, fuzzy
 msgid "Now we're switching back to main and 'accidentally' removing our branch."
 msgstr "Bây giờ chúng ta chuyển lại về main và 'vô tình' xóa nhánh của chúng ta"
 
 #. type: Plain text
 #: README.md:1053
-#, fuzzy
 msgid ""
 "```sh (my-branch)$ git checkout main Switched to branch 'main' Your branch "
 "is up-to-date with 'origin/main'.  (main)$ git branch -D my-branch Deleted "
@@ -3322,7 +3012,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1055
-#, fuzzy
 msgid ""
 "At this point you should get familiar with 'reflog', an upgraded logger. It "
 "stores the history of all the action in the repo."
@@ -3332,7 +3021,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1062
-#, fuzzy
 msgid ""
 "``` (main)$ git reflog 69204cd HEAD@{0}: checkout: moving from my-branch to "
 "main 4e3cd85 HEAD@{1}: commit: foo.txt added 69204cd HEAD@{2}: checkout: "
@@ -3344,7 +3032,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1064
-#, fuzzy
 msgid ""
 "As you can see we have commit hash from our deleted branch. Let's see if we "
 "can restore our deleted branch."
@@ -3355,7 +3042,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1073
-#, fuzzy
 msgid ""
 "```sh (main)$ git checkout -b my-branch-help Switched to a new branch "
 "'my-branch-help' (my-branch-help)$ git reset --hard 4e3cd85 HEAD is now at "
@@ -3367,7 +3053,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1075
-#, fuzzy
 msgid ""
 "Voila! We got our removed file back. `git reflog` is also useful when "
 "rebasing goes terribly wrong."
@@ -3377,49 +3062,41 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1077
-#, fuzzy
 msgid "### I want to delete a branch"
 msgstr "### Tôi muốn xoá một nhánh"
 
 #. type: Plain text
 #: README.md:1079
-#, fuzzy
 msgid "To delete a remote branch:"
 msgstr "Để xoá một nhánh tại remote:"
 
 #. type: Plain text
 #: README.md:1083
-#, fuzzy
 msgid "```sh (main)$ git push origin --delete my-branch ```"
 msgstr "```sh (main)$ git push origin --delete my-branch ```"
 
 #. type: Plain text
 #: README.md:1085
-#, fuzzy
 msgid "You can also do:"
 msgstr "Bạn cũng có thể chạy :"
 
 #. type: Plain text
 #: README.md:1089
-#, fuzzy
 msgid "```sh (main)$ git push origin :my-branch ```"
 msgstr "```sh (main)$ git push origin :my-branch ```"
 
 #. type: Plain text
 #: README.md:1091
-#, fuzzy
 msgid "To delete a local branch:"
 msgstr "Để xoá nhánh tại local:"
 
 #. type: Plain text
 #: README.md:1095
-#, fuzzy
 msgid "```sh (main)$ git branch -d my-branch ```"
 msgstr "```sh (main)$ git branch -d my-branch ```"
 
 #. type: Plain text
 #: README.md:1097
-#, fuzzy
 msgid ""
 "To delete a local branch that *has not* been merged to the current branch or "
 "an upstream:"
@@ -3429,73 +3106,61 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1101
-#, fuzzy
 msgid "```sh (main)$ git branch -D my-branch ```"
 msgstr "```sh (main)$ git branch -D my-branch ```"
 
 #. type: Plain text
 #: README.md:1103
-#, fuzzy
 msgid "### I want to delete multiple branches"
 msgstr "### Tôi muốn xoá nhiều nhánh"
 
 #. type: Plain text
 #: README.md:1105
-#, fuzzy
 msgid "Say you want to delete all branches that start with `fix/`:"
 msgstr "Giả sử bạn muốn xoá tất cả các nhánh bắt đầu với `fix/`:"
 
 #. type: Plain text
 #: README.md:1109
-#, fuzzy
 msgid "```sh (main)$ git branch | grep 'fix/' | xargs git branch -d ```"
 msgstr "```sh (main)$ git branch | grep 'fix/' | xargs git branch -d ```"
 
 #. type: Plain text
 #: README.md:1111
-#, fuzzy
 msgid "### I want to rename a branch"
 msgstr "### Tôi muốn đổi tên một nhánh"
 
 #. type: Plain text
 #: README.md:1113
-#, fuzzy
 msgid "To rename the current (local) branch:"
 msgstr "Để đổi tên nhánh local hiện tại:"
 
 #. type: Plain text
 #: README.md:1117
-#, fuzzy
 msgid "```sh (main)$ git branch -m new-name ```"
 msgstr "```sh (main)$ git branch -m tên-mới ```"
 
 #. type: Plain text
 #: README.md:1119
-#, fuzzy
 msgid "To rename a different (local) branch:"
 msgstr "Để đổi tên nhánh local khác:"
 
 #. type: Plain text
 #: README.md:1123
-#, fuzzy
 msgid "```sh (main)$ git branch -m old-name new-name ```"
 msgstr "```sh (main)$ git branch -m tên-cũ tên-mới ```"
 
 #. type: Plain text
 #: README.md:1125
-#, fuzzy
 msgid "To delete the `old-name` remote branch and push the `new-name` local branch:"
 msgstr "Để vừa xóa nhánh `tên-cũ` tại remote và push nhánh `tên-mới` từ local:"
 
 #. type: Plain text
 #: README.md:1129
-#, fuzzy
 msgid "```sh (main)$ git push origin :old_name new_name ```"
 msgstr "```sh (main)$ git push origin :tên_cũ tên_mới ```"
 
 #. type: Plain text
 #: README.md:1132
-#, fuzzy
 msgid ""
 "<a "
 "name=\"i-want-to-checkout-to-a-remote-branch-that-someone-else-is-working-on\"></a> "
@@ -3508,25 +3173,21 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1134
-#, fuzzy
 msgid "First, fetch all branches from remote:"
 msgstr "Đầu tiên, fetch tất cả nhánh từ remote:"
 
 #. type: Plain text
 #: README.md:1138
-#, fuzzy
 msgid "```sh (main)$ git fetch --all ```"
 msgstr "```sh (main)$ git fetch --all ```"
 
 #. type: Plain text
 #: README.md:1140
-#, fuzzy
 msgid "Say you want to checkout to `daves` from the remote."
 msgstr "Giả sử bạn muốn checkout sang `daves` từ remote."
 
 #. type: Plain text
 #: README.md:1146
-#, fuzzy
 msgid ""
 "```sh (main)$ git checkout --track origin/daves Branch daves set up to track "
 "remote branch daves from origin.  Switched to a new branch 'daves' ```"
@@ -3536,7 +3197,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1148
-#, fuzzy
 msgid ""
 "(`--track` is shorthand for `git checkout -b [branch] "
 "[remotename]/[branch]`)"
@@ -3544,7 +3204,6 @@ msgstr "(`--track` là viết tắt của `git checkout -b [branch] [remotename]
 
 #. type: Plain text
 #: README.md:1150
-#, fuzzy
 msgid ""
 "This will give you a local copy of the branch `daves`, and any update that "
 "has been pushed will also show up remotely."
@@ -3554,19 +3213,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1152
-#, fuzzy
 msgid "### I want to create a new remote branch from current local one"
 msgstr "### Tôi muốn tạo một nhánh remote mới từ một nhánh local hiện tại"
 
 #. type: Plain text
 #: README.md:1156
-#, fuzzy
 msgid "```sh $ git push <remote> HEAD ```"
 msgstr "```sh $ git push <remote> HEAD ```"
 
 #. type: Plain text
 #: README.md:1158
-#, fuzzy
 msgid ""
 "If you would also like to set that remote branch as upstream for the current "
 "one, use the following instead:"
@@ -3574,13 +3230,11 @@ msgstr "Nếu bạn cũng muốn đặt nhánh remote là upstream cho nhánh hi
 
 #. type: Plain text
 #: README.md:1162
-#, fuzzy
 msgid "```sh $ git push -u <remote> HEAD ```"
 msgstr "```sh $ git push -u <remote> HEAD ```"
 
 #. type: Plain text
 #: README.md:1164
-#, fuzzy
 msgid ""
 "With the `upstream` mode and the `simple` (default in Git 2.0) mode of the "
 "`push.default` config, the following command will push the current branch "
@@ -3593,13 +3247,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1168
-#, fuzzy
 msgid "```sh $ git push ```"
 msgstr "```sh $ git push ```"
 
 #. type: Plain text
 #: README.md:1170
-#, fuzzy
 msgid ""
 "The behavior of the other modes of `git push` is described in the [doc of "
 "`push.default`](https://git-scm.com/docs/git-config#git-config-pushdefault)."
@@ -3609,7 +3261,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1172
-#, fuzzy
 msgid "### I want to set a remote branch as the upstream for a local branch"
 msgstr ""
 "### Tôi muốn thiết lập một nhánh remote làm upstream (luồng trước) cho một "
@@ -3617,7 +3268,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1174
-#, fuzzy
 msgid ""
 "You can set a remote branch as the upstream for the current local branch "
 "using:"
@@ -3627,7 +3277,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1180
-#, fuzzy
 msgid ""
 "```sh $ git branch --set-upstream-to [remotename]/[branch] # or, using the "
 "shorthand: $ git branch -u [remotename]/[branch] ```"
@@ -3637,19 +3286,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1182
-#, fuzzy
 msgid "To set the upstream remote branch for another local branch:"
 msgstr "Để thiết lập nhánh upstream remote cho nhánh local khác:"
 
 #. type: Plain text
 #: README.md:1186
-#, fuzzy
 msgid "```sh $ git branch -u [remotename]/[branch] [local-branch] ```"
 msgstr "```sh $ git branch -u [remotename]/[branch] [local-branch] ```"
 
 #. type: Plain text
 #: README.md:1189
-#, fuzzy
 msgid ""
 "<a name=\"i-want-to-set-my-HEAD-to-track-the-default-remote-branch\"></a> "
 "### I want to set my HEAD to track the default remote branch"
@@ -3659,7 +3305,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1191
-#, fuzzy
 msgid ""
 "By checking your remote branches, you can see which remote branch your HEAD "
 "is tracking. In some cases, this is not the desired branch."
@@ -3669,8 +3314,7 @@ msgstr ""
 "phải là nhánh mong muốn."
 
 #. type: Plain text
-#: README.md:1197
-#, fuzzy, no-wrap
+#: README.md:1197, no-wrap
 msgid ""
 "```sh\n"
 "$ git branch -r\n"
@@ -3686,7 +3330,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1199
-#, fuzzy
 msgid "To change `origin/HEAD` to track `origin/main`, you can run this command:"
 msgstr ""
 "Để thay đổi `origin/HEAD` sang theo dõi `origin/main`, bạn có thể chạy lệnh "
@@ -3694,19 +3337,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1204
-#, fuzzy
 msgid "```sh $ git remote set-head origin --auto origin/HEAD set to main ```"
 msgstr "```sh $ git remote set-head origin --auto origin/HEAD set to main ```"
 
 #. type: Plain text
 #: README.md:1206
-#, fuzzy
 msgid "### I made changes on the wrong branch"
 msgstr "### Tôi đã thực hiện thay đổi trên sai nhánh"
 
 #. type: Plain text
 #: README.md:1208
-#, fuzzy
 msgid ""
 "You've made uncommitted changes and realise you're on the wrong "
 "branch. Stash changes and apply them to the branch you want:"
@@ -3716,7 +3356,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1214
-#, fuzzy
 msgid ""
 "```sh (wrong_branch)$ git stash (wrong_branch)$ git checkout "
 "<correct_branch> (correct_branch)$ git stash apply ```"
@@ -3726,7 +3365,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1217
-#, fuzzy
 msgid ""
 "<a name=\"i-want-to-split-a-branch-into-two\"></a> ### I want to split a "
 "branch into two"
@@ -3736,7 +3374,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1219
-#, fuzzy
 msgid ""
 "You've made a lot of commits on a branch and now want to separate it into "
 "two, ending with a branch up to an earlier commit and another with all the "
@@ -3748,7 +3385,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1221
-#, fuzzy
 msgid ""
 "Use `git log` to find the commit where you want to split. Then do the "
 "following:"
@@ -3758,7 +3394,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1227
-#, fuzzy
 msgid ""
 "```sh (original_branch)$ git checkout -b new_branch (new_branch)$ git "
 "checkout original_branch (original_branch)$ git reset --hard <sha1 split "
@@ -3770,7 +3405,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1229
-#, fuzzy
 msgid ""
 "If you had previously pushed the `original_branch` to remote, you will need "
 "to do a force push. For more information check [Stack "
@@ -3782,19 +3416,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1231
-#, fuzzy
 msgid "## Rebasing and Merging"
 msgstr "## Rebasing và Merging"
 
 #. type: Plain text
 #: README.md:1234
-#, fuzzy
 msgid "<a name=\"undo-rebase\"></a> ### I want to undo rebase/merge"
 msgstr "<a name=\"undo-rebase\"></a> ### Tôi muốn đảo ngược rebase/merge"
 
 #. type: Plain text
 #: README.md:1236
-#, fuzzy
 msgid ""
 "You may have merged or rebased your current branch with a wrong branch, or "
 "you can't figure it out or finish the rebase/merge process. Git saves the "
@@ -3810,13 +3441,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1240
-#, fuzzy
 msgid "```sh (my-branch)$ git reset --hard ORIG_HEAD ```"
 msgstr "```sh (my-branch)$ git reset --hard ORIG_HEAD ```"
 
 #. type: Plain text
 #: README.md:1243
-#, fuzzy
 msgid ""
 "<a name=\"force-push-rebase\"></a> ### I rebased, but I don't want to force "
 "push"
@@ -3826,7 +3455,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1245
-#, fuzzy
 msgid ""
 "Unfortunately, you have to force push, if you want those changes to be "
 "reflected on the remote branch. This is because you have changed the "
@@ -3847,7 +3475,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1252
-#, fuzzy
 msgid ""
 "```sh (main)$ git checkout my-branch (my-branch)$ git rebase -i main "
 "(my-branch)$ git checkout main (main)$ git merge --ff-only my-branch ```"
@@ -3857,7 +3484,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1254
-#, fuzzy
 msgid ""
 "For more, see [this SO "
 "thread](https://stackoverflow.com/questions/11058312/how-can-i-use-git-rebase-without-requiring-a-forced-push)."
@@ -3867,13 +3493,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1257
-#, fuzzy
 msgid "<a name=\"interactive-rebase\"></a> ### I need to combine commits"
 msgstr "<a name=\"interactive-rebase\"></a> ### Tôi cần kết hợp các commit"
 
 #. type: Plain text
 #: README.md:1259
-#, fuzzy
 msgid ""
 "Let's suppose you are working in a branch that is/will become a pull-request "
 "against `main`. In the simplest case when all you want to do is to combine "
@@ -3889,7 +3513,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1264
-#, fuzzy
 msgid ""
 "```sh (my-branch)$ git reset --soft main (my-branch)$ git commit -am \"New "
 "awesome feature\" ```"
@@ -3899,7 +3522,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1266
-#, fuzzy
 msgid ""
 "If you want more control, and also to preserve timestamps, you need to do "
 "something called an interactive rebase:"
@@ -3909,13 +3531,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1270
-#, fuzzy
 msgid "```sh (my-branch)$ git rebase -i main ```"
 msgstr "```sh (my-branch)$ git rebase -i main ```"
 
 #. type: Plain text
 #: README.md:1272
-#, fuzzy
 msgid ""
 "If you aren't working against another branch you'll have to rebase relative "
 "to your `HEAD`. If you want to squash the last 2 commits, for example, "
@@ -3927,13 +3547,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1276
-#, fuzzy
 msgid "```sh (main)$ git rebase -i HEAD~2 ```"
 msgstr "```sh (main)$ git rebase -i HEAD~2 ```"
 
 #. type: Plain text
 #: README.md:1278
-#, fuzzy
 msgid ""
 "After you run the interactive rebase command, you will see something like "
 "this in your text editor:"
@@ -3943,7 +3561,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1284
-#, fuzzy
 msgid ""
 "```vim pick a9c8a1d Some refactoring pick 01b2fd8 New awesome feature pick "
 "b729ad5 fixup pick e3851e8 another fix"
@@ -3953,7 +3570,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1303
-#, fuzzy
 msgid ""
 "# Rebase 8074d12..b729ad5 onto 8074d12 # # Commands: # p, pick = use commit "
 "# r, reword = use commit, but edit the commit message # e, edit = use "
@@ -3977,7 +3593,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1305
-#, fuzzy
 msgid ""
 "All the lines beginning with a `#` are comments, they won't affect your "
 "rebase."
@@ -3987,7 +3602,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1307
-#, fuzzy
 msgid ""
 "Then you replace `pick` commands with any in the list above, and you can "
 "also remove commits by removing corresponding lines."
@@ -3998,7 +3612,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1309
-#, fuzzy
 msgid ""
 "For example, if you want to **leave the oldest (first) commit alone and "
 "combine all the following commits with the second oldest**, you should edit "
@@ -4010,7 +3623,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1316
-#, fuzzy
 msgid ""
 "```vim pick a9c8a1d Some refactoring pick 01b2fd8 New awesome feature f "
 "b729ad5 fixup f e3851e8 another fix ```"
@@ -4020,7 +3632,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1318
-#, fuzzy
 msgid ""
 "If you want to combine these commits **and rename the commit**, you should "
 "additionally add an `r` next to the second commit or simply use `s` instead "
@@ -4031,7 +3642,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1325
-#, fuzzy
 msgid ""
 "```vim pick a9c8a1d Some refactoring pick 01b2fd8 New awesome feature s "
 "b729ad5 fixup s e3851e8 another fix ```"
@@ -4041,19 +3651,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1327
-#, fuzzy
 msgid "You can then rename the commit in the next text prompt that pops up."
 msgstr "Bạn có thể đổi tên commit trong đoạn hội thoại sẽ bật lên."
 
 #. type: Plain text
 #: README.md:1330
-#, fuzzy
 msgid "```vim Newer, awesomer features"
 msgstr "```vim Newer, awesomer features"
 
 #. type: Plain text
-#: README.md:1339
-#, fuzzy, no-wrap
+#: README.md:1339, no-wrap
 msgid ""
 "# Please enter the commit message for your changes. Lines starting\n"
 "# with '#' will be ignored, and an empty message aborts the commit.\n"
@@ -4077,19 +3684,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1343
-#, fuzzy
 msgid "If everything is successful, you should see something like this:"
 msgstr "Nếu mọi thứ thành công, bạn sẽ thấy giống như thế này:"
 
 #. type: Plain text
 #: README.md:1347
-#, fuzzy
 msgid "```sh (main)$ Successfully rebased and updated refs/heads/main.  ```"
 msgstr "```sh (main)$ Successfully rebased and updated refs/heads/main.  ```"
 
 #. type: Plain text
 #: README.md:1350
-#, fuzzy
 msgid ""
 "#### Safe merging strategy `--no-commit` performs the merge but pretends the "
 "merge failed and does not autocommit, giving the user a chance to inspect "
@@ -4105,25 +3709,21 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1354
-#, fuzzy
 msgid "```sh (main)$ git merge --no-ff --no-commit my-branch ```"
 msgstr "```sh (main)$ git merge --no-ff --no-commit my-branch ```"
 
 #. type: Plain text
 #: README.md:1356
-#, fuzzy
 msgid "#### I need to merge a branch into a single commit"
 msgstr "#### Tôi cần merge một nhánh thành một commit duy nhất"
 
 #. type: Plain text
 #: README.md:1360
-#, fuzzy
 msgid "```sh (main)$ git merge --squash my-branch ```"
 msgstr "```sh (main)$ git merge --squash my-branch ```"
 
 #. type: Plain text
 #: README.md:1363
-#, fuzzy
 msgid ""
 "<a name=\"rebase-unpushed-commits\"></a> #### I want to combine only "
 "unpushed commits"
@@ -4133,7 +3733,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1365
-#, fuzzy
 msgid ""
 "Sometimes you have several work in progress commits that you want to combine "
 "before you push them upstream. You don't want to accidentally combine any "
@@ -4147,13 +3746,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1369
-#, fuzzy
 msgid "```sh (main)$ git rebase -i @{u} ```"
 msgstr "```sh (main)$ git rebase -i @{u} ```"
 
 #. type: Plain text
 #: README.md:1371
-#, fuzzy
 msgid ""
 "This will do an interactive rebase that lists only the commits that you "
 "haven't already pushed, so it will be safe to reorder/fix/squash anything in "
@@ -4165,13 +3762,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1373
-#, fuzzy
 msgid "#### I need to abort the merge"
 msgstr "#### Tôi cần huỷ bỏ merge"
 
 #. type: Plain text
 #: README.md:1375
-#, fuzzy
 msgid ""
 "Sometimes the merge can produce problems in certain files, in those cases we "
 "can use the option `abort` to abort the current conflict resolution process, "
@@ -4183,25 +3778,21 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1379
-#, fuzzy
 msgid "```sh (my-branch)$ git merge --abort ```"
 msgstr "```sh (my-branch)$ git merge --abort ```"
 
 #. type: Plain text
 #: README.md:1381
-#, fuzzy
 msgid "This command is available since Git version >= 1.7.4"
 msgstr "Lệnh này có sẵn từ phiên bản Git >= 1.7.4"
 
 #. type: Plain text
 #: README.md:1383
-#, fuzzy
 msgid "### I need to update the parent commit of my branch"
 msgstr "### Tôi cần cập nhật commit gốc (parent commit) cho nhánh của tôi"
 
 #. type: Plain text
 #: README.md:1385
-#, fuzzy
 msgid ""
 "Say I have a main branch, a feature-1 branch branched from main, and a "
 "feature-2 branch branched off of feature-1. If I make a commit to feature-1, "
@@ -4217,7 +3808,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1389
-#, fuzzy
 msgid ""
 "```sh (feature-2)$ git rebase --onto feature-1 <the first commit in your "
 "feature-2 branch that you don't want to bring along> feature-2 ```"
@@ -4227,7 +3817,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1391
-#, fuzzy
 msgid ""
 "This helps in sticky scenarios where you might have a feature built on "
 "another feature that hasn't been merged yet, and a bugfix on the feature-1 "
@@ -4239,13 +3828,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1393
-#, fuzzy
 msgid "### Check if all commits on a branch are merged"
 msgstr "### Kiểm tra xem tất cả commit trên một nhánh đã được merge"
 
 #. type: Plain text
 #: README.md:1395
-#, fuzzy
 msgid ""
 "To check if all commits on a branch are merged into another branch, you "
 "should diff between the heads (or any commits) of those branches:"
@@ -4255,7 +3842,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1399
-#, fuzzy
 msgid ""
 "```sh (main)$ git log --graph --left-right --cherry-pick --oneline "
 "HEAD...feature/120-on-scroll ```"
@@ -4265,7 +3851,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1401
-#, fuzzy
 msgid ""
 "This will tell you if any commits are in one but not the other, and will "
 "give you a list of any nonshared between the branches. Another option is to "
@@ -4277,31 +3862,26 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1405
-#, fuzzy
 msgid "```sh (main)$ git log main ^feature/120-on-scroll --no-merges ```"
 msgstr "```sh (main)$ git log main ^feature/120-on-scroll --no-merges ```"
 
 #. type: Plain text
 #: README.md:1407
-#, fuzzy
 msgid "### Possible issues with interactive rebases"
 msgstr "### Các vấn đề có thể xảy ra với interactive rebase"
 
 #. type: Plain text
 #: README.md:1410
-#, fuzzy
 msgid "<a name=\"noop\"></a> #### The rebase editing screen says 'noop'"
 msgstr "<a name=\"noop\"></a> #### Màn hình chỉnh sửa rebase ghi 'noop'"
 
 #. type: Plain text
 #: README.md:1415
-#, fuzzy
 msgid "If you're seeing this: ``` noop ```"
 msgstr "Nếu bạn thấy như sau: ``` noop ```"
 
 #. type: Plain text
 #: README.md:1417
-#, fuzzy
 msgid ""
 "That means you are trying to rebase against a branch that is at an identical "
 "commit, or is *ahead* of your current branch. You can try:"
@@ -4311,25 +3891,21 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: README.md:1420
-#, fuzzy
 msgid "making sure your main branch is where it should be"
 msgstr "đảm bảo nhánh main của bạn ở đúng chỗ"
 
 #. type: Bullet: '* '
 #: README.md:1420
-#, fuzzy
 msgid "rebase against `HEAD~2` or earlier instead"
 msgstr "rebase với `HEAD~2` hoặc cũ hơn"
 
 #. type: Plain text
 #: README.md:1423
-#, fuzzy
 msgid "<a name=\"merge-conflict\"></a> #### There were conflicts"
 msgstr "<a name=\"merge-conflict\"></a> #### Có một vài xung đột"
 
 #. type: Plain text
 #: README.md:1425
-#, fuzzy
 msgid ""
 "If you are unable to successfully complete the rebase, you may have to "
 "resolve conflicts."
@@ -4339,13 +3915,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1427
-#, fuzzy
 msgid "First run `git status` to see which files have conflicts in them:"
 msgstr "Đầu tiên chạy `git status` để xem tệp nào có xung đột:"
 
 #. type: Plain text
-#: README.md:1434
-#, fuzzy, no-wrap
+#: README.md:1434, no-wrap
 msgid ""
 "```sh\n"
 "(my-branch)$ git status\n"
@@ -4364,8 +3938,7 @@ msgstr ""
 "directory)\n"
 
 #. type: Plain text
-#: README.md:1437
-#, fuzzy, no-wrap
+#: README.md:1437, no-wrap
 msgid ""
 "  both modified:   README.md\n"
 "```\n"
@@ -4375,7 +3948,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1439
-#, fuzzy
 msgid ""
 "In this example, `README.md` has conflicts. Open that file and look for the "
 "following:"
@@ -4384,8 +3956,7 @@ msgstr ""
 "như sau:"
 
 #. type: Plain text
-#: README.md:1447
-#, fuzzy, no-wrap
+#: README.md:1447, no-wrap
 msgid ""
 "```vim\n"
 "   <<<<<<< HEAD\n"
@@ -4405,7 +3976,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1449
-#, fuzzy
 msgid ""
 "You will need to resolve the differences between the code that was added in "
 "your new commit (in the example, everything from the middle line to "
@@ -4417,7 +3987,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1451
-#, fuzzy
 msgid ""
 "If you want to keep one branch's version of the code, you can use `--ours` "
 "or `--theirs`:"
@@ -4427,13 +3996,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1455
-#, fuzzy
 msgid "```sh (main*)$ git checkout --ours README.md ```"
 msgstr "```sh (main*)$ git checkout --ours README.md ```"
 
 #. type: Plain text
 #: README.md:1458
-#, fuzzy
 msgid ""
 "- When *merging*, use `--ours` to keep changes from the local branch, or "
 "`--theirs` to keep changes from the other branch.  - When *rebasing*, use "
@@ -4451,7 +4018,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1460
-#, fuzzy
 msgid "If the merges are more complicated, you can use a visual diff editor:"
 msgstr ""
 "Nếu việc merge phức tạp hơn, bạn có thể sử dụng trình chỉnh sửa khác biệt "
@@ -4459,13 +4025,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1464
-#, fuzzy
 msgid "```sh (main*)$ git mergetool -t opendiff ```"
 msgstr "```sh (main*)$ git mergetool -t opendiff ```"
 
 #. type: Plain text
 #: README.md:1466
-#, fuzzy
 msgid ""
 "After you have resolved all conflicts and tested your code, `git add` the "
 "files you have changed, and then continue the rebase with `git rebase "
@@ -4477,13 +4041,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1471
-#, fuzzy
 msgid "```sh (my-branch)$ git add README.md (my-branch)$ git rebase --continue ```"
 msgstr "```sh (my-branch)$ git add README.md (my-branch)$ git rebase --continue ```"
 
 #. type: Plain text
 #: README.md:1473
-#, fuzzy
 msgid ""
 "If after resolving all the conflicts you end up with an identical tree to "
 "what it was before the commit, you need to `git rebase --skip` instead."
@@ -4493,7 +4055,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1475
-#, fuzzy
 msgid ""
 "If at any time you want to stop the entire rebase and go back to the "
 "original state of your branch, you can do so:"
@@ -4503,73 +4064,61 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1479
-#, fuzzy
 msgid "```sh (my-branch)$ git rebase --abort ```"
 msgstr "```sh (my-branch)$ git rebase --abort ```"
 
 #. type: Plain text
 #: README.md:1482
-#, fuzzy
 msgid "<a name=\"stashing\"></a> ## Stash"
 msgstr "<a name=\"stashing\"></a> ## Stash (Cất)"
 
 #. type: Plain text
 #: README.md:1484
-#, fuzzy
 msgid "### Stash all edits"
 msgstr "### Stash tất cả chỉnh sửa"
 
 #. type: Plain text
 #: README.md:1486
-#, fuzzy
 msgid "To stash all the edits in your working directory"
 msgstr "Để stash tất cả các chỉnh sửa trong thư mục làm việc"
 
 #. type: Plain text
 #: README.md:1490
-#, fuzzy
 msgid "```sh $ git stash ```"
 msgstr "```sh $ git stash ```"
 
 #. type: Plain text
 #: README.md:1492
-#, fuzzy
 msgid "If you also want to stash untracked files, use `-u` option."
 msgstr "Nếu bạn cũng muốn stash các file chưa được theo dõi, sử dụng cờ `-u`."
 
 #. type: Plain text
 #: README.md:1496
-#, fuzzy
 msgid "```sh $ git stash -u ```"
 msgstr "```sh $ git stash -u ```"
 
 #. type: Plain text
 #: README.md:1498
-#, fuzzy
 msgid "### Stash specific files"
 msgstr "### Stash các file cụ thể"
 
 #. type: Plain text
 #: README.md:1500
-#, fuzzy
 msgid "To stash only one file from your working directory"
 msgstr "Để stash chỉ một file từ thư mục làm việc"
 
 #. type: Plain text
 #: README.md:1504
-#, fuzzy
 msgid "```sh $ git stash push working-directory-path/filename.ext ```"
 msgstr "```sh $ git stash push working-directory-path/filename.ext ```"
 
 #. type: Plain text
 #: README.md:1506
-#, fuzzy
 msgid "To stash multiple files from your working directory"
 msgstr "Để stash nhiều file từ thư mục làm việc"
 
 #. type: Plain text
 #: README.md:1510
-#, fuzzy
 msgid ""
 "```sh $ git stash push working-directory-path/filename1.ext "
 "working-directory-path/filename2.ext ```"
@@ -4579,31 +4128,26 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1513
-#, fuzzy
 msgid "<a name=\"stash-msg\"></a> ### Stash with message"
 msgstr "<a name=\"stash-msg\"></a> ### Stash với message (thông điệp)"
 
 #. type: Plain text
 #: README.md:1517
-#, fuzzy
 msgid "```sh $ git stash save <message> ```"
 msgstr "```sh $ git stash save <message> ```"
 
 #. type: Plain text
 #: README.md:1519
-#, fuzzy
 msgid "or"
 msgstr "hoặc"
 
 #. type: Plain text
 #: README.md:1523
-#, fuzzy
 msgid "```sh $ git stash push -m <message> ```"
 msgstr "```sh $ git stash push -m <message> ```"
 
 #. type: Plain text
 #: README.md:1526
-#, fuzzy
 msgid "<a name=\"stash-apply-specific\"></a> ### Apply a specific stash from list"
 msgstr ""
 "<a name=\"stash-apply-specific\"></a> ### Apply một stash cụ thể từ danh "
@@ -4611,31 +4155,26 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1528
-#, fuzzy
 msgid "First check your list of stashes with message using"
 msgstr "Đầu tiên kiểm tra danh sách các stash với message bằng lệnh"
 
 #. type: Plain text
 #: README.md:1532
-#, fuzzy
 msgid "```sh $ git stash list ```"
 msgstr "```sh $ git stash list ```"
 
 #. type: Plain text
 #: README.md:1534
-#, fuzzy
 msgid "Then apply a specific stash from the list using"
 msgstr "Sau đó apply (áp dụng) một stash cụ thể từ danh sách với"
 
 #. type: Plain text
 #: README.md:1538
-#, fuzzy
 msgid "```sh $ git stash apply \"stash@{n}\" ```"
 msgstr "```sh $ git stash apply \"stash@{n}\" ```"
 
 #. type: Plain text
 #: README.md:1540
-#, fuzzy
 msgid ""
 "Here, 'n' indicates the position of the stash in the stack. The topmost "
 "stash will be position 0."
@@ -4645,19 +4184,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1542
-#, fuzzy
 msgid "Furthermore, using a time-based stash reference is also possible."
 msgstr "Hơn nữa, cũng có thể chỉ stash dựa vào mốc thời gian"
 
 #. type: Plain text
 #: README.md:1546
-#, fuzzy
 msgid "```sh $ git stash apply \"stash@{2.hours.ago}\" ```"
 msgstr "```sh $ git stash apply \"stash@{2.hours.ago}\" ```"
 
 #. type: Plain text
 #: README.md:1549
-#, fuzzy
 msgid ""
 "<a name=\"stage-and-keep-unstaged\"></a> ### Stash while keeping unstaged "
 "edits"
@@ -4667,31 +4203,26 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1551
-#, fuzzy
 msgid "You can manually create a `stash commit`, and then use `git stash store`."
 msgstr "Bạn có thể tạo một `stash commit`, rồi dùng lệnh `git stash store`."
 
 #. type: Plain text
 #: README.md:1556
-#, fuzzy
 msgid "```sh $ git stash create $ git stash store -m <message> CREATED_SHA1 ```"
 msgstr "```sh $ git stash create $ git stash store -m <message> CREATED_SHA1 ```"
 
 #. type: Plain text
 #: README.md:1558
-#, fuzzy
 msgid "## Finding"
 msgstr "## Finding (Tìm)"
 
 #. type: Plain text
 #: README.md:1560
-#, fuzzy
 msgid "### I want to find a string in any commit"
 msgstr "### Tôi muốn tìm một chuỗi ký tự trong bất kỳ commit nào"
 
 #. type: Plain text
 #: README.md:1562
-#, fuzzy
 msgid ""
 "To find a certain string which was introduced in any commit, you can use the "
 "following structure:"
@@ -4701,19 +4232,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1566
-#, fuzzy
 msgid "```sh $ git log -S \"string to find\" ```"
 msgstr "```sh $ git log -S \"chuỗi ký tự để tìm\" ```"
 
 #. type: Plain text
 #: README.md:1568
-#, fuzzy
 msgid "Commons parameters:"
 msgstr "Các cờ thường dùng:"
 
 #. type: Bullet: '* '
 #: README.md:1570
-#, fuzzy
 msgid ""
 "`--source` means to show the ref name given on the command line by which "
 "each commit was reached."
@@ -4723,13 +4251,11 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: README.md:1572
-#, fuzzy
 msgid "`--all` means to start from every branch."
 msgstr "`--all` nghĩa là bắt đầu từ mọi nhánh."
 
 #. type: Bullet: '* '
 #: README.md:1574
-#, fuzzy
 msgid ""
 "`--reverse` prints in reverse order, it means that will show the first "
 "commit that made the change."
@@ -4739,7 +4265,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1577
-#, fuzzy
 msgid ""
 "<a name=\"i-want-to-find-by-author-committer\"></a> ### I want to find by "
 "author/committer"
@@ -4749,13 +4274,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1579
-#, fuzzy
 msgid "To find all commits by author/committer you can use:"
 msgstr "Để tìm tất cả commit từ tác giả hoặc người commit bạn có thể sử dụng:"
 
 #. type: Plain text
 #: README.md:1584
-#, fuzzy
 msgid ""
 "```sh $ git log --author=<name or email> $ git log --committer=<name or "
 "email> ```"
@@ -4765,7 +4288,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1586
-#, fuzzy
 msgid ""
 "Keep in mind that author and committer are not the same. The `--author` is "
 "the person who originally wrote the code; on the other hand, the "
@@ -4778,25 +4300,21 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1588
-#, fuzzy
 msgid "### I want to list commits containing specific files"
 msgstr "### Tôi muốn liệt kê các commit chứa các file cụ thể"
 
 #. type: Plain text
 #: README.md:1590
-#, fuzzy
 msgid "To find all commits containing a specific file you can use:"
 msgstr "Để tìm tất cả các commit chưa một file cụ thể bạn có thể sử dụng:"
 
 #. type: Plain text
 #: README.md:1594
-#, fuzzy
 msgid "```sh $ git log -- <path to file> ```"
 msgstr "```sh $ git log -- <path to file> ```"
 
 #. type: Plain text
 #: README.md:1596
-#, fuzzy
 msgid ""
 "You would usually specify an exact path, but you may also use wild cards in "
 "the path and file name:"
@@ -4806,13 +4324,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1600
-#, fuzzy
 msgid "```sh $ git log -- **/*.js ```"
 msgstr "```sh $ git log -- **/*.js ```"
 
 #. type: Plain text
 #: README.md:1602
-#, fuzzy
 msgid ""
 "While using wildcards, it's useful to inform `--name-status` to see the list "
 "of committed files:"
@@ -4822,13 +4338,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1606
-#, fuzzy
 msgid "```sh $ git log --name-status -- **/*.js ```"
 msgstr "```sh $ git log --name-status -- **/*.js ```"
 
 #. type: Plain text
 #: README.md:1609
-#, fuzzy
 msgid ""
 "<a name=\"#i-want-to-view-the-commit-history-for-a-specific-function\"></a> "
 "### I want to view the commit history for a specific function"
@@ -4838,19 +4352,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1611
-#, fuzzy
 msgid "To trace the evolution of a single function you can use:"
 msgstr "Để truy tìm lịch sử tiến hóa của một function là dùng lệnh:"
 
 #. type: Plain text
 #: README.md:1615
-#, fuzzy
 msgid "```sh $ git log -L :FunctionName:FilePath ```"
 msgstr "```sh $ git log -L :TênFunction:FilePath ```"
 
 #. type: Plain text
 #: README.md:1617
-#, fuzzy
 msgid ""
 "Note that you can combine this with further `git log` options, like "
 "[revision ranges](https://git-scm.com/docs/gitrevisions) and [commit "
@@ -4862,61 +4373,51 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1619
-#, fuzzy
 msgid "### Find a tag where a commit is referenced"
 msgstr "### Tìm một tag mà một commit đã tham chiếu"
 
 #. type: Plain text
 #: README.md:1621
-#, fuzzy
 msgid "To find all tags containing a specific commit:"
 msgstr "Để tìm tất cả các tag có chứa một commit cụ thể"
 
 #. type: Plain text
 #: README.md:1625
-#, fuzzy
 msgid "```sh $ git tag --contains <commitid> ```"
 msgstr "```sh $ git tag --contains <commitid> ```"
 
 #. type: Plain text
 #: README.md:1627
-#, fuzzy
 msgid "## Submodules"
 msgstr "## Submodules"
 
 #. type: Plain text
 #: README.md:1630
-#, fuzzy
 msgid "<a name=\"clone-submodules\"></a> ### Clone all submodules"
 msgstr "<a name=\"clone-submodules\"></a> ### Clone tất cả submodules"
 
 #. type: Plain text
 #: README.md:1634
-#, fuzzy
 msgid "```sh $ git clone --recursive git://github.com/foo/bar.git ```"
 msgstr "```sh $ git clone --recursive git://github.com/foo/bar.git ```"
 
 #. type: Plain text
 #: README.md:1636
-#, fuzzy
 msgid "If already cloned:"
 msgstr "Nếu đã clone:"
 
 #. type: Plain text
 #: README.md:1640
-#, fuzzy
 msgid "```sh $ git submodule update --init --recursive ```"
 msgstr "```sh $ git submodule update --init --recursive ```"
 
 #. type: Plain text
 #: README.md:1643
-#, fuzzy
 msgid "<a name=\"delete-submodule\"></a> ### Remove a submodule"
 msgstr "<a name=\"delete-submodule\"></a> ### Xoá một submodule"
 
 #. type: Plain text
 #: README.md:1645
-#, fuzzy
 msgid ""
 "Creating a submodule is pretty straight-forward, but deleting them less "
 "so. The commands you need are:"
@@ -4926,7 +4427,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1652
-#, fuzzy
 msgid ""
 "```sh $ git submodule deinit submodulename $ git rm submodulename $ git rm "
 "--cached submodulename $ rm -rf .git/modules/submodulename ```"
@@ -4936,19 +4436,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1654
-#, fuzzy
 msgid "## Miscellaneous Objects"
 msgstr "## Miscellaneous Objects (Những thứ khác)"
 
 #. type: Plain text
 #: README.md:1656
-#, fuzzy
 msgid "### Copy a folder or file from one branch to another"
 msgstr "### Copy thư mục hoặc tệp file từ một nhánh sang nhánh khác"
 
 #. type: Plain text
 #: README.md:1660
-#, fuzzy
 msgid ""
 "```sh $ git checkout <branch-you-want-the-directory-from> -- <folder-name or "
 "file-name> ```"
@@ -4956,55 +4453,46 @@ msgstr "```sh $ git checkout <nhánh-có-tệp-bạn-muốn> -- <thư mục ho�
 
 #. type: Plain text
 #: README.md:1662
-#, fuzzy
 msgid "### Restore a deleted file"
 msgstr "### Khôi phục một file đã bị xoá"
 
 #. type: Plain text
 #: README.md:1664
-#, fuzzy
 msgid "First find the commit when the file last existed:"
 msgstr "Đầu tiên tìm commit cuối cùng ma file vẫn tồn tại:"
 
 #. type: Plain text
 #: README.md:1668
-#, fuzzy
 msgid "```sh $ git rev-list -n 1 HEAD -- filename ```"
 msgstr "```sh $ git rev-list -n 1 HEAD -- filename ```"
 
 #. type: Plain text
 #: README.md:1670
-#, fuzzy
 msgid "Then checkout that file:"
 msgstr "Sau đó checkout file:"
 
 #. type: Plain text
 #: README.md:1674
-#, fuzzy
 msgid "``` git checkout deletingcommitid^ -- filename ```"
 msgstr "``` git checkout id-của-commit-delete-trên^ -- filename ```"
 
 #. type: Plain text
 #: README.md:1676
-#, fuzzy
 msgid "### Delete tag"
 msgstr "### Xoá tag"
 
 #. type: Plain text
 #: README.md:1681
-#, fuzzy
 msgid "```sh $ git tag -d <tag_name> $ git push <remote> :refs/tags/<tag_name> ```"
 msgstr "```sh $ git tag -d <tag_name> $ git push <remote> :refs/tags/<tag_name> ```"
 
 #. type: Plain text
 #: README.md:1684
-#, fuzzy
 msgid "<a name=\"recover-tag\"></a> ### Recover a deleted tag"
 msgstr "<a name=\"recover-tag\"></a> ### Khôi phục một tag đã bị xoá"
 
 #. type: Plain text
 #: README.md:1686
-#, fuzzy
 msgid ""
 "If you want to recover a tag that was already deleted, you can do so by "
 "following these steps: First, you need to find the unreachable tag:"
@@ -5014,13 +4502,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1690
-#, fuzzy
 msgid "```sh $ git fsck --unreachable | grep tag ```"
 msgstr "```sh $ git fsck --unreachable | grep tag ```"
 
 #. type: Plain text
 #: README.md:1692
-#, fuzzy
 msgid ""
 "Make a note of the tag's hash. Then, restore the deleted tag with following, "
 "making use of [`git update-ref`](https://git-scm.com/docs/git-update-ref):"
@@ -5030,25 +4516,21 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1696
-#, fuzzy
 msgid "```sh $ git update-ref refs/tags/<tag_name> <hash> ```"
 msgstr "```sh $ git update-ref refs/tags/<tag_name> <hash> ```"
 
 #. type: Plain text
 #: README.md:1698
-#, fuzzy
 msgid "Your tag should now have been restored."
 msgstr "Tag của bạn bây giờ đã được khôi phục."
 
 #. type: Plain text
 #: README.md:1700
-#, fuzzy
 msgid "### Deleted Patch"
 msgstr "### Patch (Vá) bị xóa"
 
 #. type: Plain text
 #: README.md:1702
-#, fuzzy
 msgid ""
 "If someone has sent you a pull request on GitHub, but then deleted their "
 "original fork, you will be unable to clone their repository or to use `git "
@@ -5066,8 +4548,7 @@ msgstr ""
 "PR#1 vào một nhánh được gọi là pr_1, chạy:"
 
 #. type: Plain text
-#: README.md:1708
-#, fuzzy, no-wrap
+#: README.md:1708, no-wrap
 msgid ""
 "```sh\n"
 "$ git fetch origin refs/pull/1/head:pr_1\n"
@@ -5083,13 +4564,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1710
-#, fuzzy
 msgid "### Exporting a repository as a Zip file"
 msgstr "### Xuất một repository ra một file Zip"
 
 #. type: Plain text
 #: README.md:1715
-#, fuzzy
 msgid ""
 "```sh $ git archive --format zip --output /full/path/to/zipfile.zip main ``` "
 "### Push a branch and a tag that have the same name"
@@ -5099,7 +4578,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1717
-#, fuzzy
 msgid ""
 "If there is a tag on a remote repository that has the same name as a branch "
 "you will get the following error when trying to push that branch with a "
@@ -5111,7 +4589,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1723
-#, fuzzy
 msgid ""
 "```sh $ git push origin <branch> error: dst refspec same matches more than "
 "one.  error: failed to push some refs to '<git server>' ```"
@@ -5121,19 +4598,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1725
-#, fuzzy
 msgid "Fix this by specifying you want to push the head reference."
 msgstr "Sửa lỗi này bằng cách chỉ định bạn muốn đẩy tham chiếu của head."
 
 #. type: Plain text
 #: README.md:1729
-#, fuzzy
 msgid "```sh $ git push origin refs/heads/<branch-name> ```"
 msgstr "```sh $ git push origin refs/heads/<branch-name> ```"
 
 #. type: Plain text
 #: README.md:1731
-#, fuzzy
 msgid ""
 "If you want to push a tag to a remote repository that has the same name as a "
 "branch, you can use a similar command."
@@ -5143,19 +4617,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1735
-#, fuzzy
 msgid "```sh $ git push origin refs/tags/<tag-name> ```"
 msgstr "```sh $ git push origin refs/tags/<tag-name> ```"
 
 #. type: Plain text
 #: README.md:1737
-#, fuzzy
 msgid "## Tracking Files"
 msgstr "## Tracking (Theo dõi) các file"
 
 #. type: Plain text
 #: README.md:1740
-#, fuzzy
 msgid ""
 "<a "
 "href=\"i-want-to-change-a-file-names-capitalization-without-changing-the-contents-of-the-file\"></a> "
@@ -5169,25 +4640,21 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1744
-#, fuzzy
 msgid "```sh (main)$ git mv --force myfile MyFile ```"
 msgstr "```sh (main)$ git mv --force myfile MyFile ```"
 
 #. type: Plain text
 #: README.md:1746
-#, fuzzy
 msgid "### I want to overwrite local files when doing a git pull"
 msgstr "### Tôi muốn ghi đè lên các tệp local khi thực hiện lệnh git pull"
 
 #. type: Plain text
 #: README.md:1751
-#, fuzzy
 msgid "```sh (main)$ git fetch --all (main)$ git reset --hard origin/main ```"
 msgstr "```sh (main)$ git fetch --all (main)$ git reset --hard origin/main ```"
 
 #. type: Plain text
 #: README.md:1754
-#, fuzzy
 msgid ""
 "<a href=\"remove-from-git\"></a> ### I want to remove a file from Git but "
 "keep the file"
@@ -5197,25 +4664,21 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1758
-#, fuzzy
 msgid "```sh (main)$ git rm --cached log.txt ```"
 msgstr "```sh (main)$ git rm --cached log.txt ```"
 
 #. type: Plain text
 #: README.md:1760
-#, fuzzy
 msgid "### I want to revert a file to a specific revision"
 msgstr "### Tôi muốn đảo ngược tệp về bản sửa đổi cụ thể"
 
 #. type: Plain text
 #: README.md:1762
-#, fuzzy
 msgid "Assuming the hash of the commit you want is c5f567:"
 msgstr "Giả sử mã hash của commit bạn muốn là c5f567:"
 
 #. type: Plain text
 #: README.md:1766
-#, fuzzy
 msgid "```sh (main)$ git checkout c5f567 -- file1/to/restore file2/to/restore ```"
 msgstr ""
 "```sh (main)$ git checkout c5f567 -- fileSố1/Để/PhụcHồi fileSố2/Để/PhụcHồi "
@@ -5223,7 +4686,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1768
-#, fuzzy
 msgid ""
 "If you want to revert to changes made just 1 commit before c5f567, pass the "
 "commit hash as c5f567~1:"
@@ -5233,13 +4695,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1772
-#, fuzzy
 msgid "```sh (main)$ git checkout c5f567~1 -- file1/to/restore file2/to/restore ```"
 msgstr "```sh (main)$ git checkout c5f567~1 -- file1/to/restore file2/to/restore ```"
 
 #. type: Plain text
 #: README.md:1774
-#, fuzzy
 msgid "### I want to list changes of a specific file between commits or branches"
 msgstr ""
 "### Tôi muốn liệt kê các thay đổi của một tệp cụ thể giữa các commit hoặc "
@@ -5247,37 +4707,31 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1776
-#, fuzzy
 msgid "Assuming you want to compare last commit with file from commit c5f567:"
 msgstr "Giả sử bạn muốn so sánh commit cuối cùng với tệp từ commit c5f567:"
 
 #. type: Plain text
 #: README.md:1780
-#, fuzzy
 msgid "```sh $ git diff HEAD:path_to_file/file c5f567:path_to_file/file ```"
 msgstr "```sh $ git diff HEAD:path_to_file/file c5f567:path_to_file/file ```"
 
 #. type: Plain text
 #: README.md:1782
-#, fuzzy
 msgid "Same goes for branches:"
 msgstr "Cũng giống khi so sánh nhánh nhánh:"
 
 #. type: Plain text
 #: README.md:1786
-#, fuzzy
 msgid "```sh $ git diff main:path_to_file/file staging:path_to_file/file ```"
 msgstr "```sh $ git diff main:path_to_file/file staging:path_to_file/file ```"
 
 #. type: Plain text
 #: README.md:1788
-#, fuzzy
 msgid "### I want Git to ignore changes to a specific file"
 msgstr "### Tôi muốn Git bỏ qua những thay đổi đối với một tệp cụ thể"
 
 #. type: Plain text
 #: README.md:1790
-#, fuzzy
 msgid ""
 "This works great for config templates or other files that require locally "
 "adding credentials that shouldn't be committed."
@@ -5287,13 +4741,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1794
-#, fuzzy
 msgid "```sh $ git update-index --assume-unchanged file-to-ignore ```"
 msgstr "```sh $ git update-index --assume-unchanged file-to-ignore ```"
 
 #. type: Plain text
 #: README.md:1796
-#, fuzzy
 msgid ""
 "Note that this does *not* remove the file from source control - it is only "
 "ignored locally. To undo this and tell Git to notice changes again, this "
@@ -5305,19 +4757,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1800
-#, fuzzy
 msgid "```sh $ git update-index --no-assume-unchanged file-to-stop-ignoring ```"
 msgstr "```sh $ git update-index --no-assume-unchanged file-to-stop-ignoring ```"
 
 #. type: Plain text
 #: README.md:1802
-#, fuzzy
 msgid "## Debugging with Git"
 msgstr "## Debugging (Gỡ lỗi) with Git"
 
 #. type: Plain text
 #: README.md:1804
-#, fuzzy
 msgid ""
 "The [git-bisect](https://git-scm.com/docs/git-bisect) command uses a binary "
 "search to find which commit in your Git history introduced a bug."
@@ -5327,7 +4776,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1806
-#, fuzzy
 msgid ""
 "Suppose you're on the `main` branch, and you want to find the commit that "
 "broke some feature. You start bisect:"
@@ -5337,13 +4785,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1810
-#, fuzzy
 msgid "```sh $ git bisect start ```"
 msgstr "```sh $ git bisect start ```"
 
 #. type: Plain text
 #: README.md:1812
-#, fuzzy
 msgid ""
 "Then you should specify which commit is bad, and which one is known to be "
 "good. Assuming that your *current* version is bad, and `v1.1.1` is good:"
@@ -5353,13 +4799,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1817
-#, fuzzy
 msgid "```sh $ git bisect bad $ git bisect good v1.1.1 ```"
 msgstr "```sh $ git bisect bad $ git bisect good v1.1.1 ```"
 
 #. type: Plain text
 #: README.md:1819
-#, fuzzy
 msgid ""
 "Now `git-bisect` selects a commit in the middle of the range that you "
 "specified, checks it out, and asks you whether it's good or bad. You should "
@@ -5371,7 +4815,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1825
-#, fuzzy
 msgid ""
 "```sh $ Bisecting: 5 revision left to test after this (roughly 5 step)  $ "
 "[c44abbbee29cb93d8499283101fe7c8d9d97f0fe] Commit message $ (c44abbb)$ ```"
@@ -5381,19 +4824,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1827
-#, fuzzy
 msgid "You will now check if this commit is good or bad. If it's good:"
 msgstr "Bạn kiểm tra commit xem tốt hay tồi. Nếu tốt:"
 
 #. type: Plain text
 #: README.md:1831
-#, fuzzy
 msgid "```sh $ (c44abbb)$ git bisect good ```"
 msgstr "```sh $ (c44abbb)$ git bisect good ```"
 
 #. type: Plain text
 #: README.md:1833
-#, fuzzy
 msgid ""
 "and `git-bisect` will select another commit from the range for you. This "
 "process (selecting `good` or `bad`) will repeat until there are no more "
@@ -5406,19 +4846,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1835
-#, fuzzy
 msgid "## Configuration"
 msgstr "## Cấu hình (Configuration)"
 
 #. type: Plain text
 #: README.md:1837
-#, fuzzy
 msgid "### I want to add aliases for some Git commands"
 msgstr "### Tôi muốn thêm bí danh (alias) cho một số lệnh Git"
 
 #. type: Plain text
 #: README.md:1839
-#, fuzzy
 msgid ""
 "On OS X and Linux, your git configuration file is stored in "
 "```~/.gitconfig```.  I've added some example aliases I use as shortcuts (and "
@@ -5430,8 +4867,7 @@ msgstr ""
 "đây:"
 
 #. type: Plain text
-#: README.md:1866
-#, fuzzy, no-wrap
+#: README.md:1866, no-wrap
 msgid ""
 "```vim\n"
 "[alias]\n"
@@ -5495,13 +4931,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1868
-#, fuzzy
 msgid "### I want to add an empty directory to my repository"
 msgstr "### Tôi muốn thêm một thư mục trống vào repository của tôi"
 
 #. type: Plain text
 #: README.md:1870
-#, fuzzy
 msgid ""
 "You can’t! Git doesn’t support this, but there’s a hack. You can create a "
 ".gitignore file in the directory with the following contents:"
@@ -5510,8 +4944,7 @@ msgstr ""
 "tệp .gitignore trong thư mục với các nội dung sau:"
 
 #. type: Plain text
-#: README.md:1877
-#, fuzzy, no-wrap
+#: README.md:1877, no-wrap
 msgid ""
 "```\n"
 " # Ignore everything in this directory\n"
@@ -5529,7 +4962,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1879
-#, fuzzy
 msgid ""
 "Another common convention is to make an empty file in the folder, titled "
 ".gitkeep."
@@ -5537,13 +4969,11 @@ msgstr "Một quy ước chung khác là tạo một tệp trống trong thư m�
 
 #. type: Plain text
 #: README.md:1884
-#, fuzzy
 msgid "```sh $ mkdir mydir $ touch mydir/.gitkeep ```"
 msgstr "```sh $ mkdir mydir $ touch mydir/.gitkeep ```"
 
 #. type: Plain text
 #: README.md:1886
-#, fuzzy
 msgid ""
 "You can also name the file as just .keep , in which case the second line "
 "above would be ```touch mydir/.keep```"
@@ -5553,7 +4983,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1888
-#, fuzzy
 msgid "### I want to cache a username and password for a repository"
 msgstr ""
 "### Tôi muốn cache (cho vào bộ nhớ đệm) một username và password cho một "
@@ -5561,7 +4990,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1890
-#, fuzzy
 msgid ""
 "You might have a repository that requires authentication.  In which case you "
 "can cache a username and password so you don't have to enter it on every "
@@ -5574,7 +5002,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1895
-#, fuzzy
 msgid ""
 "```sh $ git config --global credential.helper cache # Set git to use the "
 "credential memory cache ```"
@@ -5584,7 +5011,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1900
-#, fuzzy
 msgid ""
 "```sh $ git config --global credential.helper 'cache --timeout=3600' # Set "
 "the cache to timeout after 1 hour (setting is in seconds)  ```"
@@ -5594,13 +5020,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1902
-#, fuzzy
 msgid "To find a credential helper:"
 msgstr "Để tìm phụ tá chứng chỉ:"
 
 #. type: Plain text
 #: README.md:1907
-#, fuzzy
 msgid ""
 "```sh $ git help -a | grep credential # Shows you possible credential "
 "helpers ```"
@@ -5608,19 +5032,16 @@ msgstr "```sh $ git help -a | grep credential # Phô bày các phụ tá chứng
 
 #. type: Plain text
 #: README.md:1909
-#, fuzzy
 msgid "For OS specific credential caching:"
 msgstr "Bộ nhớ đệm chứng chỉ cho các hệ điều hành (operating system/OS) cụ thể :"
 
 #. type: Plain text
 #: README.md:1914
-#, fuzzy
 msgid "```sh $ git config --global credential.helper osxkeychain # For OSX ```"
 msgstr "```sh $ git config --global credential.helper osxkeychain # cho OSX ```"
 
 #. type: Plain text
 #: README.md:1919
-#, fuzzy
 msgid ""
 "```sh $ git config --global credential.helper manager # Git for Windows "
 "2.7.3+ ```"
@@ -5630,7 +5051,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1924
-#, fuzzy
 msgid ""
 "```sh $ git config --global credential.helper gnome-keyring # Ubuntu and "
 "other GNOME-based distros ```"
@@ -5640,7 +5060,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1926
-#, fuzzy
 msgid ""
 "More credential helpers can likely be found for different distributions and "
 "operating systems."
@@ -5650,19 +5069,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1928
-#, fuzzy
 msgid "### I want to make Git ignore permissions and filemode changes"
 msgstr "### Tôi muốn Git bỏ qua các quyền và thay đổi về filemode (chế độ file)"
 
 #. type: Plain text
 #: README.md:1932
-#, fuzzy
 msgid "```sh $ git config core.fileMode false ```"
 msgstr "```sh $ git config core.fileMode false ```"
 
 #. type: Plain text
 #: README.md:1934
-#, fuzzy
 msgid ""
 "If you want to make this the default behaviour for logged-in users, then "
 "use:"
@@ -5672,19 +5088,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1938
-#, fuzzy
 msgid "```sh $ git config --global core.fileMode false ```"
 msgstr "```sh $ git config --global core.fileMode false ```"
 
 #. type: Plain text
 #: README.md:1940
-#, fuzzy
 msgid "### I want to set a global user"
 msgstr "### Tôi muốn đặt người dùng toàn cục (global user)"
 
 #. type: Plain text
 #: README.md:1942
-#, fuzzy
 msgid ""
 "To configure user information used across all local repositories, and to set "
 "a name that is identifiable for credit when review version history:"
@@ -5694,31 +5107,26 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1946
-#, fuzzy
 msgid "```sh $ git config --global user.name “[firstname lastname]” ```"
 msgstr "```sh $ git config --global user.name \"[tên-riêng tên-họ]\" ```"
 
 #. type: Plain text
 #: README.md:1948
-#, fuzzy
 msgid "To set an email address that will be associated with each history marker:"
 msgstr "Để đặt địa chỉ email gắn với mỗi mốc lịch sử:"
 
 #. type: Plain text
 #: README.md:1952
-#, fuzzy
 msgid "```sh git config --global user.email “[valid-email]” ```"
 msgstr "```sh git config --global user.email \"[email-có-hiệu-lực]\" ```"
 
 #. type: Plain text
 #: README.md:1954
-#, fuzzy
 msgid "## I've no idea what I did wrong"
 msgstr "## Tôi không biết mình đã làm gì sai"
 
 #. type: Plain text
 #: README.md:1956
-#, fuzzy
 msgid ""
 "So, you're screwed - you `reset` something, or you merged the wrong branch, "
 "or you force pushed and now you can't find your commits. You know, at some "
@@ -5732,7 +5140,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1958
-#, fuzzy
 msgid ""
 "This is what `git reflog` is for. `reflog` keeps track of any changes to the "
 "tip of a branch, even if that tip isn't referenced by a branch or a "
@@ -5750,7 +5157,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1965
-#, fuzzy
 msgid ""
 "```sh (main)$ git reflog 0a2e358 HEAD@{0}: reset: moving to HEAD~2 0254ea7 "
 "HEAD@{1}: checkout: moving from 2.2 to main c10f740 HEAD@{2}: checkout: "
@@ -5762,7 +5168,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1967
-#, fuzzy
 msgid ""
 "The reflog above shows a checkout from main to the 2.2 branch and back. From "
 "there, there's a hard reset to an older commit. The latest activity is "
@@ -5774,7 +5179,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1969
-#, fuzzy
 msgid ""
 "If it turns out that you accidentally moved back, the reflog will contain "
 "the commit main pointed to (0254ea7) before you accidentally dropped 2 "
@@ -5785,13 +5189,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1973
-#, fuzzy
 msgid "```sh $ git reset --hard 0254ea7 ```"
 msgstr "```sh $ git reset --hard 0254ea7 ```"
 
 #. type: Plain text
 #: README.md:1975
-#, fuzzy
 msgid ""
 "Using `git reset` it is then possible to change main back to the commit it "
 "was before. This provides a safety net in case history was accidentally "
@@ -5802,7 +5204,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1977
-#, fuzzy
 msgid ""
 "(copied and edited from "
 "[Source](https://www.atlassian.com/git/tutorials/rewriting-history/git-reflog))."
@@ -5812,19 +5213,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1980
-#, fuzzy
 msgid "<a name=\"git-shortcuts\"></a> ## Git Shortcuts"
 msgstr "<a name=\"git-shortcuts\"></a> ## Git Shortcuts (phím tắt)"
 
 #. type: Plain text
 #: README.md:1982
-#, fuzzy
 msgid "### Git Bash"
 msgstr "### Git Bash"
 
 #. type: Plain text
 #: README.md:1984
-#, fuzzy
 msgid ""
 "Once you're comfortable with what the above commands are doing, you might "
 "want to create some shortcuts for Git Bash. This allows you to work a lot "
@@ -5836,13 +5234,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1987
-#, fuzzy
 msgid "```sh alias sq=squash"
 msgstr "```sh alias sq=squash"
 
 #. type: Plain text
-#: README.md:1992
-#, fuzzy, no-wrap
+#: README.md:1992, no-wrap
 msgid ""
 "function squash() {\n"
 "    git rebase -i HEAD~$1\n"
@@ -5856,19 +5252,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:1994
-#, fuzzy
 msgid "Copy those commands to your .bashrc or .bash_profile."
 msgstr "Copy các lệnh này vào .bashrc hoặc .bash_profile của bạn."
 
 #. type: Plain text
 #: README.md:1996
-#, fuzzy
 msgid "### PowerShell on Windows"
 msgstr "### PowerShell trên Windows"
 
 #. type: Plain text
 #: README.md:1998
-#, fuzzy
 msgid ""
 "If you are using PowerShell on Windows, you can also set up aliases and "
 "functions. Add these commands to your profile, whose path is defined in the "
@@ -5884,13 +5277,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:2001
-#, fuzzy
 msgid "```powershell Set-Alias sq Squash-Commits"
 msgstr "```powershell Set-Alias sq Squash-Commits"
 
 #. type: Plain text
-#: README.md:2006
-#, fuzzy, no-wrap
+#: README.md:2006, no-wrap
 msgid ""
 "function Squash-Commits {\n"
 "  git rebase -i HEAD~$1\n"
@@ -5904,19 +5295,16 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:2008
-#, fuzzy
 msgid "# Other Resources"
 msgstr "# Tài nguyên khác"
 
 #. type: Plain text
 #: README.md:2010
-#, fuzzy
 msgid "## Books"
 msgstr "## Sách"
 
 #. type: Bullet: '* '
 #: README.md:2015
-#, fuzzy
 msgid ""
 "[Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial) "
 "- A book by Michael Hartl covering Git from basics"
@@ -5926,7 +5314,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: README.md:2015
-#, fuzzy
 msgid ""
 "[Pro Git](https://git-scm.com/book/en/v2) - Scott Chacon and Ben Straub's "
 "excellent book about Git"
@@ -5936,7 +5323,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: README.md:2015
-#, fuzzy
 msgid ""
 "[Git Internals](https://github.com/pluralsight/git-internals-pdf) - Scott "
 "Chacon's other excellent book about Git"
@@ -5946,7 +5332,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: README.md:2015
-#, fuzzy
 msgid ""
 "[Nasa "
 "handbook](https://www.nasa.gov/sites/default/files/atoms/files/nasa_systems_engineering_handbook.pdf)"
@@ -5956,13 +5341,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:2017
-#, fuzzy
 msgid "## Tutorials"
 msgstr "## Hướng dẫn"
 
 #. type: Bullet: '* '
 #: README.md:2028
-#, fuzzy
 msgid ""
 "[19 Git Tips For Everyday "
 "Use](https://www.alexkras.com/19-git-tips-for-everyday-use) - A list of "
@@ -5974,7 +5357,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: README.md:2028
-#, fuzzy
 msgid ""
 "[Atlassian's Git tutorial](https://www.atlassian.com/git/tutorials) Get Git "
 "right with tutorials from beginner to advanced."
@@ -5984,7 +5366,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: README.md:2028
-#, fuzzy
 msgid ""
 "[Learn Git branching](https://learngitbranching.js.org/) An interactive web "
 "based branching/merging/rebasing tutorial"
@@ -5994,7 +5375,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: README.md:2028
-#, fuzzy
 msgid ""
 "[Getting solid at Git rebase "
 "vs. "
@@ -6006,7 +5386,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: README.md:2028
-#, fuzzy
 msgid ""
 "[Git Commands and Best Practices Cheat "
 "Sheet](https://zeroturnaround.com/rebellabs/git-commands-and-best-practices-cheat-sheet) "
@@ -6018,7 +5397,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: README.md:2028
-#, fuzzy
 msgid ""
 "[Git from the inside "
 "out](https://codewords.recurse.com/issues/two/git-from-the-inside-out) - A "
@@ -6030,7 +5408,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: README.md:2028
-#, fuzzy
 msgid ""
 "[git-workflow](https://github.com/asmeurer/git-workflow) - [Aaron "
 "Meurer](https://github.com/asmeurer)'s howto on using Git to contribute to "
@@ -6042,7 +5419,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: README.md:2028
-#, fuzzy
 msgid ""
 "[GitHub as a "
 "workflow](https://hugogiraudel.com/2015/08/13/github-as-a-workflow/) - An "
@@ -6055,7 +5431,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: README.md:2028
-#, fuzzy
 msgid ""
 "[Githug](https://github.com/Gazler/githug) - A game to learn more common Git "
 "workflows"
@@ -6065,7 +5440,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: README.md:2028
-#, fuzzy
 msgid ""
 "[learnGitBranching](https://github.com/pcottle/learnGitBranching) - An "
 "interactive git visualization to challenge and educate!"
@@ -6075,13 +5449,11 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:2030
-#, fuzzy
 msgid "## Scripts and Tools"
 msgstr "## Scripts (tập lệnh) và các công cụ"
 
 #. type: Bullet: '* '
 #: README.md:2037
-#, fuzzy
 msgid ""
 "[firstaidgit.io](http://firstaidgit.io/) A searchable selection of the most "
 "frequently asked Git questions"
@@ -6091,7 +5463,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: README.md:2037
-#, fuzzy
 msgid ""
 "[git-extra-commands](https://github.com/unixorn/git-extra-commands) - a "
 "collection of useful extra Git scripts"
@@ -6101,7 +5472,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: README.md:2037
-#, fuzzy
 msgid ""
 "[git-extras](https://github.com/tj/git-extras) - GIT utilities -- repo "
 "summary, repl, changelog population, author commit percentages and more"
@@ -6112,7 +5482,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: README.md:2037
-#, fuzzy
 msgid ""
 "[git-fire](https://github.com/qw3rtman/git-fire) - git-fire is a Git plugin "
 "that helps in the event of an emergency by adding all current files, "
@@ -6124,13 +5493,11 @@ msgstr ""
 
 #. type: Bullet: '* '
 #: README.md:2037
-#, fuzzy
 msgid "[git-tips](https://github.com/git-tips/tips) - Small Git tips"
 msgstr "[git-tips](https://github.com/git-tips/tips) - Các mẹo Git nhỏ"
 
 #. type: Bullet: '* '
 #: README.md:2037
-#, fuzzy
 msgid ""
 "[git-town](https://github.com/Originate/git-town) - Generic, high-level Git "
 "workflow support! http://www.git-town.com"
@@ -6140,7 +5507,6 @@ msgstr ""
 
 #. type: Plain text
 #: README.md:2051
-#, fuzzy
 msgid ""
 "## GUI Clients * [GitKraken](https://www.gitkraken.com/) - The downright "
 "luxurious Git client,for Windows, Mac & Linux * "
